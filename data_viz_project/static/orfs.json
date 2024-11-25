@@ -1,0 +1,1908 @@
+[
+    {
+        "contig": "contig_130",
+        "length": 2177,
+        "orfs": [
+            {
+                "name": "contig_130_ORF.42",
+                "start": 647,
+                "end": 2138,
+                "strand": "-",
+                "sequence": "VSPSLLNQMSELQKSDDWLKQEVQKLQDGEASEFSLSDDGTFMLSDRICVPKDDQLSRAILEEAHSSAYALHPGSTKMYRTIKESYWWPGMKRDMAEFVAKCLTCQQIKAEHQKPSGTLQPLPIPEWKWEHVTMDFVLGLPRTQSGKDAIWVIVDSLTKSAHFLAIHSTYSIESLASLYMDEIVSLHGVPVSIVSDRDPRFTSRFWPKFQEALGTKLSFSTAFHPQTDGQSESTIQTLEDMLRACVIDFIGSWDSHLPLVEFAYNNSFQSSIGMAPYEALYGSKCRTPLCWDEVGESKLVNVELIDLTNDKVKVIRERLKTAQDSQKNYSDKRSKDLEFEVDDKVFLKVSPWKGVIRFAKSGKLNPSYIGPFRIIESIGPVAYSLELPPELDRIHNVFHVSMLKKYVPDPSHILETPPIELHEDLKFEVQPVRILDRKDRVLSNKSIPMVKVLWKNARMEEMTWEVESQMSNQYPHLLFESGGESSDKGKEIASEDQ",
+                "type": "complete",
+                "length": 1491,
+                "frame": "-1",
+                "start_codon": "GTG",
+                "stop_codon": "TAG",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "7.71E-40"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "1.79E-7"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "2.0E-16"
+                    }
+                ]
+            },
+            {
+                "name": "contig_130_ORF.40",
+                "start": 647,
+                "end": 2138,
+                "strand": "-",
+                "sequence": "VGPSLLNQMGELQKSDDWLKQEVQKLQDGEASEFGLSDDGTFMLGDRICVPKDDQLGRAILEEAHSSAYALHPGSTKMYRTIKESYWWPGMKRDMAEFVAKCLTCQQIKAEHQKPSGTLQPLPIPEWKWEHVTMDFVLGLPRTQSGKDAIWVIVDGLTKSAHFLAIHSTYSIEGLAGLYMDEIVGLHGVPVSIVSDRDPRFTSRFWPKFQEALGTKLGFSTAFHPQTDGQSEGTIQTLEDMLRACVIDFIGSWDGHLPLVEFAYNNSFQSSIGMAPYEALYGGKCRTPLCWDEVGEGKLVNVELIDLTNDKVKVIRERLKTAQDGQKNYSDKRGKDLEFEVDDKVFLKVSPWKGVIRFAKGGKLNPGYIGPFRIIEGIGPVAYGLELPPELDRIHNVFHVSMLKKYVPDPSHILETPPIELHEDLKFEVQPVRILDRKDRVLGNKSIPMVKVLWKNARMEEMTWEVESQMGNQYPHLLFESGGESSDKGKEIASEDQ",
+                "type": "complete",
+                "length": 1491,
+                "frame": "-1",
+                "start_codon": "GTG",
+                "stop_codon": "TAG",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "2.09E-36"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "3.7E-16"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.31E-7"
+                    }
+                ]
+            },
+            {
+                "name": "contig_130_ORF.45",
+                "start": 647,
+                "end": 2126,
+                "strand": "-",
+                "sequence": "LLNQIRELQKSDDWLKQEVQKLQDGEASEFRLSDDGTFMLRDRICVPKDDQLRRAILEEAHSSAYALHPGSTKMYRTIKESYWWPGMKRDIAEFVAKCLTCQQIKAEHQKPSGTLQPLPIPEWKWEHVTMDFVLGLPRTQSGKDAIWVIVDRLTKSAHFLAIHSTYSIERLARLYIDEIVRLHGVPVSIVSDRDPRFTSRFWPKFQEALGTKLRFSTAFHPQTDGQSERTIQTLEDMLRACVIDFIGSWDRHLPLVEFAYNNSFQSSIGMAPYEALYGRKCRTPLCWDEVGERKLVNVELIDLTNDKVKVIRERLKTAQDRQKNYSDKRRKDLEFEVDDKVFLKVSPWKGVIRFAKRGKLNPRYIGPFRIIERIGPVAYRLELPPELDRIHNVFHVSMLKKYVPDPSHILETPPIELHEDLKFEVQPVRILDRKDRVLRNKSIPMVKVLWKNARMEEMTWEVESQMRNQYPHLLFESGGESSDKGKEIASEDQ",
+                "type": "complete",
+                "length": 1479,
+                "frame": "-1",
+                "start_codon": "TTG",
+                "stop_codon": "TAG",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "1.07E-7"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "3.4E-18"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "2.73E-41"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_344",
+        "length": 1275,
+        "orfs": [
+            {
+                "name": "contig_344_ORF.1",
+                "start": 3,
+                "end": 1266,
+                "strand": "+",
+                "sequence": "MLEEAHMAAYVVHPGATKMYQDLKEVYWWEGLKSDVAEFVSKCLVCQQVKAEHQKPAGLLQPLPVPEWKWEHIAMDFVTGLPRTSGGYDSIWMVVDRLTKSAHFLPVKTTYGAAQYARVYVDEMVRLHGIPISMVSDSGAQFTSSFWGKLQEALGTKLDFSTAFHPQTDGQSERTMQTLEDMLSACVMDLGVSWEQYLPLVEFAYNNSFQTSIQMAPFEALYGRSCSSPIGWLEVGESKLLGPELVQDATEKMHMIRQSMLTAQSSQKSYADNRRSDLEFQVGDHVFLKVSPTKGVMSFGKKGKLSPRYMGPFEILEKVGAVAYRLALPPDLSNIHPVFHVSMLSKYNPDPSHVMRYETIQLQDDLTYEEQPVAILDSQVKKLRSKDVASVKVLWRNHTSEEVTWEAEDEMRTKHPHLFDM",
+                "type": "complete",
+                "length": 1263,
+                "frame": "1",
+                "start_codon": "ATA",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.75E-5"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "1.09E-42"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "5.5E-12"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "2.12E-39"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "5.36E-5"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "4.4E-12"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "2.0E-11"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "1.06E-38"
+                    }
+                ]
+            },
+            {
+                "name": "contig_344_ORF.1",
+                "start": 3,
+                "end": 1266,
+                "strand": "+",
+                "sequence": "MLEEAHMAAYVVHPGATKMYQDLKEVYWWEGLKGDVAEFVSKCLVCQQVKAEHQKPAGLLQPLPVPEWKWEHIAMDFVTGLPRTSGGYDSIWMVVDRLTKSAHFLPVKTTYGAAQYARVYVDEMVRLHGIPISMVSDGGAQFTSGFWGKLQEALGTKLDFSTAFHPQTDGQSERTMQTLEDMLGACVMDLGVGWEQYLPLVEFAYNNSFQTSIQMAPFEALYGRGCGSPIGWLEVGEGKLLGPELVQDATEKMHMIRQGMLTAQSGQKSYADNRRGDLEFQVGDHVFLKVSPTKGVMGFGKKGKLSPRYMGPFEILEKVGAVAYRLALPPDLSNIHPVFHVSMLGKYNPDPSHVMRYETIQLQDDLTYEEQPVAILDGQVKKLRSKDVASVKVLWRNHTSEEVTWEAEDEMRTKHPHLFDM",
+                "type": "complete",
+                "length": 1263,
+                "frame": "1",
+                "start_codon": "ATA",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.75E-5"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "1.09E-42"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "5.5E-12"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "2.12E-39"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "5.36E-5"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "4.4E-12"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "2.0E-11"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "1.06E-38"
+                    }
+                ]
+            },
+            {
+                "name": "contig_344_ORF.1",
+                "start": 6,
+                "end": 1266,
+                "strand": "+",
+                "sequence": "LEEAHMAAYVVHPGATKMYQDLKEVYWWEGLKRDVAEFVSKCLVCQQVKAEHQKPAGLLQPLPVPEWKWEHIAMDFVTGLPRTSGGYDSIWIVVDRLTKSAHFLPVKTTYGAAQYARVYVDEIVRLHGIPISIVSDRGAQFTSRFWGKLQEALGTKLDFSTAFHPQTDGQSERTIQTLEDMLRACVIDLGVRWEQYLPLVEFAYNNSFQTSIQMAPFEALYGRRCRSPIGWLEVGERKLLGPELVQDATEKIHMIRQRMLTAQSRQKSYADNRRRDLEFQVGDHVFLKVSPTKGVMRFGKKGKLSPRYIGPFEILEKVGAVAYRLALPPDLSNIHPVFHVSMLRKYNPDPSHVIRYETIQLQDDLTYEEQPVAILDRQVKKLRSKDVASVKVLWRNHTSEEVTWEAEDEMRTKHPHLFDM",
+                "type": "complete",
+                "length": 1260,
+                "frame": "1",
+                "start_codon": "TTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.75E-5"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "1.09E-42"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "5.5E-12"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "2.12E-39"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "5.36E-5"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "4.4E-12"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17921",
+                        "domain_name": "Integrase zinc binding domain",
+                        "e_value": "2.0E-11"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF53098",
+                        "domain_name": "Ribonuclease H-like",
+                        "e_value": "1.06E-38"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_384",
+        "length": 1211,
+        "orfs": [
+            {
+                "name": "contig_384_ORF.1",
+                "start": 42,
+                "end": 1167,
+                "strand": "+",
+                "sequence": "VNSLTMEDKGNPGCYIAGDVRVNEMVGLLTMHTVWFREHNKLATRLKEINPHWNSDQLFYEARKMLAAELQHITYQHWLPHVMGIDGMQKLGSYQGYNPNTNPGMLHVFATAALSMGHTIMFPELNRLDSNFKTIPQGNLLLSKSFFAPWRLKAEGGMDPVMSGLMTMPAKKKFPTQNLNEQIIDHLFENRSGGAMDLAALNIQRSSDHGLPSYAAYRKACNLTEPRNFDELKQDISSDEVSKKMQDVYGHPDNVDVWVGGVLEDQSKGAIIGPLFQCLLAEQFKSVRDGDSFWYENPTTFTPAQLSAISKITFARMLCDMGDNITVVNEDVFTLPSSRNTTNVPCDKMPKLDLTPWLSPKVWWGMQIQEWCTQF",
+                "type": "complete",
+                "length": 1125,
+                "frame": "1",
+                "start_codon": "GTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "8.12E-125"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "9.4E-123"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "5.8E-114"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "3.06E-116"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "1.7E-111"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "7.18E-116"
+                    }
+                ]
+            },
+            {
+                "name": "contig_384_ORF.1",
+                "start": 42,
+                "end": 1167,
+                "strand": "+",
+                "sequence": "VNGLTMEDKGNPGCYIAGDVRVNEMVGLLTMHTVWFREHNKLATRLKEINPHWNSDQLFYEARKMLAAELQHITYQHWLPHVMGIDGMQKLGSYQGYNPNTNPGMLHVFATAALGMGHTIMFPELNRLDSNFKTIPQGNLLLSKSFFAPWRLKAEGGMDPVMGGLMTMPAKKKFPTQNLNEQIIDHLFENRSGGAMDLAALNIQRSGDHGLPSYAAYRKACNLTEPRNFDELKQDISSDEVGKKMQDVYGHPDNVDVWVGGVLEDQGKGAIIGPLFQCLLAEQFKGVRDGDGFWYENPTTFTPAQLSAIGKITFARMLCDMGDNITVVNEDVFTLPSSRNTTNVPCDKMPKLDLTPWLSPKVWWGMQIQEWCTQF",
+                "type": "complete",
+                "length": 1125,
+                "frame": "1",
+                "start_codon": "GTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "8.12E-125"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "9.4E-123"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "5.8E-114"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "3.06E-116"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "1.7E-111"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "7.18E-116"
+                    }
+                ]
+            },
+            {
+                "name": "contig_384_ORF.1",
+                "start": 36,
+                "end": 1128,
+                "strand": "+",
+                "sequence": "LNVNRLTMEDKGNPGCYIAGDVRVNEMVGLLTMHTVWFREHNKLATRLKEINPHWNSDQLFYEARKILAAELQHITYQHWLPHVIGIDGMQKLGSYQGYNPNTNPGILHVFATAALRMGHTIIFPELNRLDSNFKTIPQGNLLLSKSFFAPWRLKAEGGIDPVMRGLMTMPAKKKFPTQNLNEQIIDHLFENRSGGAMDLAALNIQRSRDHGLPSYAAYRKACNLTEPRNFDELKQDISSDEVRKKMQDVYGHPDNVDVWVGGVLEDQRKGAIIGPLFQCLLAEQFKRVRDGDRFWYENPTTFTPAQLSAIRKITFARILCDIGDNITVVNEDVFTLPSSRNTTNVPCDKIPKLDLTPWLSPKV",
+                "type": "complete",
+                "length": 1092,
+                "frame": "1",
+                "start_codon": "CTG",
+                "stop_codon": "TGA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "8.12E-125"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "9.4E-123"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "5.8E-114"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "3.06E-116"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "1.7E-111"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "7.18E-116"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_523",
+        "length": 1053,
+        "orfs": [
+            {
+                "name": "contig_523_ORF.23",
+                "start": 146,
+                "end": 1007,
+                "strand": "-",
+                "sequence": "MAEADSSSKDNSWSLHGMTALVTGGTKGIGHAIVEELAGLGASIHTCSRTETELNKCLLEWQAKGFQVTGSACDVSSKAQSEKLINTASSVFNGKLDILMNNVGTVFAKPISEETAEEVSFLMGTNFESAHNLSLLAHPLLKASGAGSVVLLSSIAGLMPLSTAPTYGATKGAMNQLAKYLACEWAGDNISVNAVAPSVISTPLVEPFFHDEKALEAFITKIPMGRTGEPKEVSSLVAFLCLPAASYMTGQIIYVDGGITLNGLFFPSNMAWKGIEHHPPHFAICYV",
+                "type": "complete",
+                "length": 861,
+                "frame": "-2",
+                "start_codon": "ATG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF51735",
+                        "domain_name": "NAD(P)-binding Rossmann-fold domains",
+                        "e_value": "2.0E-72"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF13561",
+                        "domain_name": "Enoyl-(Acyl carrier protein) reductase",
+                        "e_value": "1.6E-51"
+                    }
+                ]
+            },
+            {
+                "name": "contig_523_ORF.24",
+                "start": 146,
+                "end": 1007,
+                "strand": "-",
+                "sequence": "MAEADSSSKDNGWSLHGMTALVTGGTKGIGHAIVEELAGLGAGIHTCSRTETELNKCLLEWQAKGFQVTGSACDVSSKAQGEKLINTASSVFNGKLDILMNNVGTVFAKPISEETAEEVSFLMGTNFESAHNLSLLAHPLLKASGAGSVVLLSSIAGLMPLGTAPTYGATKGAMNQLAKYLACEWAGDNIGVNAVAPSVIGTPLVEPFFHDEKALEAFITKIPMGRTGEPKEVSSLVAFLCLPAASYMTGQIIYVDGGITLNGLFFPSNMAWKGIEHHPPHFAICYV",
+                "type": "complete",
+                "length": 861,
+                "frame": "-2",
+                "start_codon": "ATG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF51735",
+                        "domain_name": "NAD(P)-binding Rossmann-fold domains",
+                        "e_value": "1.79E-71"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF13561",
+                        "domain_name": "Enoyl-(Acyl carrier protein) reductase",
+                        "e_value": "3.2E-50"
+                    }
+                ]
+            },
+            {
+                "name": "contig_523_ORF.34",
+                "start": 194,
+                "end": 1037,
+                "strand": "-",
+                "sequence": "LEREADREVRMAEADSSSKDNRWSLHGMTALVTGGTKGIGHAIVEELAGLGARIHTCSRTETELNKCLLEWQAKGFQVTGSACDVSSKAQREKLINTASSVFNGKLDILINNVGTVFAKPISEETAEEVSFLMGTNFESAHNLSLLAHPLLKASGAGSVVLLSSIAGLIPLRTAPTYGATKGAMNQLAKYLACEWAGDNIRVNAVAPSVIRTPLVEPFFHDEKALEAFITKIPMGRTGEPKEVSSLVAFLCLPAASYITGQIIYVDGGITLNGLFFPSNIA",
+                "type": "complete",
+                "length": 843,
+                "frame": "-2",
+                "start_codon": "CTG",
+                "stop_codon": "TGA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF51735",
+                        "domain_name": "NAD(P)-binding Rossmann-fold domains",
+                        "e_value": "1.57E-75"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF13561",
+                        "domain_name": "Enoyl-(Acyl carrier protein) reductase",
+                        "e_value": "9.5E-54"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_562",
+        "length": 1024,
+        "orfs": [
+            {
+                "name": "contig_562_ORF.8",
+                "start": 7,
+                "end": 808,
+                "strand": "+",
+                "sequence": "LETDTLGMSLYIVEFELPGSKFWSETVKLVYLIDYQNLIELPPSLSMGDDMPTFKCVLVGDGGTGKTTFVKSHLTGEFEKRYVATLGVEVHPLVFHTNRGAIRFNVWDTAGQEKFGGLRDGYYIQGQCAIMMFDVTSRVTYKNVPNWHRDLVRVCENIPIVLCGNKVDIKDRKVKAKTIVFHSKKNLQYYDISAKSNYNFEKPFLWLARKLMGDPNLEFVAMPALVPPEITMDPTWQTQIEKDLKEAQDTALPEDDEDLWWNAFSSG",
+                "type": "complete",
+                "length": 801,
+                "frame": "2",
+                "start_codon": "TTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF52540",
+                        "domain_name": "P-loop containing nucleoside triphosphate hydrolases",
+                        "e_value": "1.13E-48"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00071",
+                        "domain_name": "Ras family",
+                        "e_value": "2.6E-42"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00877",
+                        "domain_name": "Ran",
+                        "e_value": "9.99207E-131"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF52540",
+                        "domain_name": "P-loop containing nucleoside triphosphate hydrolases",
+                        "e_value": "1.16E-47"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00071",
+                        "domain_name": "Ras family",
+                        "e_value": "1.7E-41"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00877",
+                        "domain_name": "Ran",
+                        "e_value": "3.72551E-131"
+                    }
+                ]
+            },
+            {
+                "name": "contig_562_ORF.8",
+                "start": 7,
+                "end": 808,
+                "strand": "+",
+                "sequence": "LETDTLGMSLYIVEFELPGSKFWSETVKLVYLIDYQNLIELPPGLGMGDDMPTFKCVLVGDGGTGKTTFVKGHLTGEFEKRYVATLGVEVHPLVFHTNRGAIRFNVWDTAGQEKFGGLRDGYYIQGQCAIMMFDVTSRVTYKNVPNWHRDLVRVCENIPIVLCGNKVDIKDRKVKAKTIVFHGKKNLQYYDISAKSNYNFEKPFLWLARKLMGDPNLEFVAMPALVPPEITMDPTWQTQIEKDLKEAQDTALPEDDEDLWWNAFSSG",
+                "type": "complete",
+                "length": 801,
+                "frame": "2",
+                "start_codon": "TTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF52540",
+                        "domain_name": "P-loop containing nucleoside triphosphate hydrolases",
+                        "e_value": "1.13E-48"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00071",
+                        "domain_name": "Ras family",
+                        "e_value": "2.6E-42"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00877",
+                        "domain_name": "Ran",
+                        "e_value": "9.99207E-131"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF52540",
+                        "domain_name": "P-loop containing nucleoside triphosphate hydrolases",
+                        "e_value": "1.16E-47"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00071",
+                        "domain_name": "Ras family",
+                        "e_value": "1.7E-41"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00877",
+                        "domain_name": "Ran",
+                        "e_value": "3.72551E-131"
+                    }
+                ]
+            },
+            {
+                "name": "contig_562_ORF.10",
+                "start": 118,
+                "end": 784,
+                "strand": "+",
+                "sequence": "LIELPPRLRMGDDMPTFKCVLVGDGGTGKTTFVKRHLTGEFEKRYVATLGVEVHPLVFHTNRGAIRFNVWDTAGQEKFGGLRDGYYIQGQCAIIMFDVTSRVTYKNVPNWHRDLVRVCENIPIVLCGNKVDIKDRKVKAKTIVFHRKKNLQYYDISAKSNYNFEKPFLWLARKLIGDPNLEFVAMPALVPPEITMDPTWQTQIEKDLKEAQDTALPEDDEDL",
+                "type": "complete",
+                "length": 666,
+                "frame": "2",
+                "start_codon": "TTG",
+                "stop_codon": "TGA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF52540",
+                        "domain_name": "P-loop containing nucleoside triphosphate hydrolases",
+                        "e_value": "6.62E-50"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00877",
+                        "domain_name": "Ran",
+                        "e_value": "7.96248E-134"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00071",
+                        "domain_name": "Ras family",
+                        "e_value": "1.7E-43"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_747",
+        "length": 901,
+        "orfs": [
+            {
+                "name": "contig_747_ORF.27",
+                "start": 0,
+                "end": 879,
+                "strand": "-",
+                "sequence": "LYRRFTLRELRTATQNFDIARRIDDFPNTVYPFSVYRGYINGSYKDLVAIKVFDPNSDHQNFLTEIELLSNIRHANIVSLIGYCSDGSDNIIVHEYTPHGTLYDHLQKTDNGNPPLSWKQRLQICIGIAGGLEFLHAAKPSIVHRDIRSTSILVNQNLIAKISVFDIAKLISTSLSESDNHVTSDVVGTLGYLDPAYALLGDLSVKSDVYSFGVVLFEVLCGKKPIYKHENREAICRITWARECVEDSKLGEIIDPRLKGEIAPQCLKAYADLAYNCTNGRGNERPGMSAVLK",
+                "type": "3-prime-partial",
+                "length": 879,
+                "frame": "-2",
+                "start_codon": "CTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56112",
+                        "domain_name": "Protein kinase-like (PK-like)",
+                        "e_value": "1.14E-59"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF07714",
+                        "domain_name": "Protein tyrosine and serine/threonine kinase",
+                        "e_value": "4.9E-36"
+                    }
+                ]
+            },
+            {
+                "name": "contig_747_ORF.23",
+                "start": 0,
+                "end": 825,
+                "strand": "-",
+                "sequence": "MARSIDDFPNTVYPFSVYSGYINGSYKDLVAIKVFDPNSDHQNFLTEIELLSNIRHANIVSLMGYCSDGSDNIIVHEYTPHGTLYDHLQKTDNGNPPLSWKQSLQICIGIAGGLEFLHAAKPSIVHSDISSTSILVNQNLIAKISVFDIAKLISTSLSESDNHVTSDVVGTLGYLDPAYALLGDLSVKSDVYSFGVVLFEVLCGKKPIYKHENSEAMCRITWASECVEDSKLGEMIDPRLKGEIAPQCLKAYADLAYNCTNGRGNESPGMSAVLK",
+                "type": "3-prime-partial",
+                "length": 825,
+                "frame": "-2",
+                "start_codon": "ATA",
+                "stop_codon": "NA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF07714",
+                        "domain_name": "Protein tyrosine and serine/threonine kinase",
+                        "e_value": "4.2E-34"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56112",
+                        "domain_name": "Protein kinase-like (PK-like)",
+                        "e_value": "2.49E-54"
+                    }
+                ]
+            },
+            {
+                "name": "contig_747_ORF.20",
+                "start": 0,
+                "end": 825,
+                "strand": "-",
+                "sequence": "MARGIDDFPNTVYPFSVYGGYINGSYKDLVAIKVFDPNSDHQNFLTEIELLSNIRHANIVSLMGYCSDGSDNIIVHEYTPHGTLYDHLQKTDNGNPPLSWKQGLQICIGIAGGLEFLHAAKPSIVHGDIGSTSILVNQNLIAKISVFDIAKLISTSLSESDNHVTSDVVGTLGYLDPAYALLGDLSVKSDVYSFGVVLFEVLCGKKPIYKHENGEAMCRITWAGECVEDSKLGEMIDPRLKGEIAPQCLKAYADLAYNCTNGRGNEGPGMSAVLK",
+                "type": "3-prime-partial",
+                "length": 825,
+                "frame": "-2",
+                "start_codon": "ATA",
+                "stop_codon": "NA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56112",
+                        "domain_name": "Protein kinase-like (PK-like)",
+                        "e_value": "4.29E-53"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF07714",
+                        "domain_name": "Protein tyrosine and serine/threonine kinase",
+                        "e_value": "7.0E-33"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_842",
+        "length": 858,
+        "orfs": [
+            {
+                "name": "contig_842_ORF.16",
+                "start": 110,
+                "end": 473,
+                "strand": "+",
+                "sequence": "IFITYYILLSRMSIQNLNTFDPFADATKGADDNVQDGFVHMSIQQRSGRKTLTTVQGLSSEYDLKKIVRACKKEFACNGTVIDHPEYGEVLQLQGDQRENMCQWLTKTGLAKPDQLKVHGF",
+                "type": "complete",
+                "length": 363,
+                "frame": "3",
+                "start_codon": "ATT",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01253",
+                        "domain_name": "Translation initiation factor SUI1",
+                        "e_value": "9.2E-22"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF55159",
+                        "domain_name": "eIF1-like",
+                        "e_value": "8.76E-34"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd11566",
+                        "domain_name": "eIF1_SUI1",
+                        "e_value": "5.44729E-51"
+                    }
+                ]
+            },
+            {
+                "name": "contig_842_ORF.22",
+                "start": 134,
+                "end": 473,
+                "strand": "+",
+                "sequence": "LRRMSIQNLNTFDPFADATKGADDNVQDGFVHIRIQQRSGRKTLTTVQGLSSEYDLKKIVRACKKEFACNGTVIDHPEYGEVLQLQGDQRENICQWLTKTGLAKPDQLKVHGF",
+                "type": "complete",
+                "length": 339,
+                "frame": "3",
+                "start_codon": "TTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01253",
+                        "domain_name": "Translation initiation factor SUI1",
+                        "e_value": "6.3E-24"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd11566",
+                        "domain_name": "eIF1_SUI1",
+                        "e_value": "3.24629E-53"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF55159",
+                        "domain_name": "eIF1-like",
+                        "e_value": "2.49E-35"
+                    }
+                ]
+            },
+            {
+                "name": "contig_842_ORF.17",
+                "start": 134,
+                "end": 473,
+                "strand": "+",
+                "sequence": "LGRMSIQNLNTFDPFADATKGADDNVQDGFVHMGIQQRSGRKTLTTVQGLSSEYDLKKIVRACKKEFACNGTVIDHPEYGEVLQLQGDQRENMCQWLTKTGLAKPDQLKVHGF",
+                "type": "complete",
+                "length": 339,
+                "frame": "3",
+                "start_codon": "TTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01253",
+                        "domain_name": "Translation initiation factor SUI1",
+                        "e_value": "2.6E-21"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd11566",
+                        "domain_name": "eIF1_SUI1",
+                        "e_value": "4.72808E-51"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF55159",
+                        "domain_name": "eIF1-like",
+                        "e_value": "6.8E-33"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_962",
+        "length": 801,
+        "orfs": [
+            {
+                "name": "contig_962_ORF.14",
+                "start": 2,
+                "end": 800,
+                "strand": "+",
+                "sequence": "LTNAPAVFMDLMNRVFHPYLDKFVIVFIDDILVYSKNDDEHAAHLRIVLQTLRERQLYAKFSKCEFWLKEVVFLGHVVSGAGIYVDPKKIEAILQWEQPRTVTEIRSFLGLAGYYRRFVQGFSLIAAPLTRLTRKGVKYEWDDVCENRFQELKNRLTSAPVLTLPVSGKEFVVYSDASKLGLGCVLMQDEKVIAYASRQLKKHETNYPTHDLELAAVVFALKIWRHYLYGERCRIFSDHKSLKYLLTQKELNLRQRRWLELIKDYD",
+                "type": "3-prime-partial",
+                "length": 798,
+                "frame": "3",
+                "start_codon": "TTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17917",
+                        "domain_name": "RNase H-like domain found in reverse transcriptase",
+                        "e_value": "8.7E-31"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd09274",
+                        "domain_name": "RNase_HI_RT_Ty3",
+                        "e_value": "3.84399E-45"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00078",
+                        "domain_name": "Reverse transcriptase (RNA-dependent DNA polymerase)",
+                        "e_value": "5.5E-12"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56672",
+                        "domain_name": "DNA/RNA polymerases",
+                        "e_value": "6.67E-102"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd01647",
+                        "domain_name": "RT_LTR",
+                        "e_value": "2.34599E-35"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd09274",
+                        "domain_name": "RNase_HI_RT_Ty3",
+                        "e_value": "4.78633E-41"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17917",
+                        "domain_name": "RNase H-like domain found in reverse transcriptase",
+                        "e_value": "2.3E-28"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56672",
+                        "domain_name": "DNA/RNA polymerases",
+                        "e_value": "2.22E-98"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00078",
+                        "domain_name": "Reverse transcriptase (RNA-dependent DNA polymerase)",
+                        "e_value": "6.3E-12"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd01647",
+                        "domain_name": "RT_LTR",
+                        "e_value": "9.95962E-36"
+                    }
+                ]
+            },
+            {
+                "name": "contig_962_ORF.14",
+                "start": 2,
+                "end": 800,
+                "strand": "+",
+                "sequence": "LTNAPAVFMDLMNSVFHPYLDKFVMVFIDDILVYSKNDDEHAAHLRIVLQTLRESQLYAKFSKCEFWLKEVVFLGHVVSGAGIYVDPKKIEAILQWEQPSTVTEIRSFLGLAGYYRSFVQGFSLMAAPLTRLTRKGVKYEWDDVCENRFQELKNRLTSAPVLTLPVSGKEFVVYSDASKLGLGCVLMQDEKVMAYASRQLKKHETNYPTHDLELAAVVFALKIWSHYLYGERCRIFSDHKSLKYLLTQKELNLSQSRWLELIKDYD",
+                "type": "3-prime-partial",
+                "length": 798,
+                "frame": "3",
+                "start_codon": "TTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17917",
+                        "domain_name": "RNase H-like domain found in reverse transcriptase",
+                        "e_value": "8.7E-31"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd09274",
+                        "domain_name": "RNase_HI_RT_Ty3",
+                        "e_value": "3.84399E-45"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00078",
+                        "domain_name": "Reverse transcriptase (RNA-dependent DNA polymerase)",
+                        "e_value": "5.5E-12"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56672",
+                        "domain_name": "DNA/RNA polymerases",
+                        "e_value": "6.67E-102"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd01647",
+                        "domain_name": "RT_LTR",
+                        "e_value": "2.34599E-35"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd09274",
+                        "domain_name": "RNase_HI_RT_Ty3",
+                        "e_value": "4.78633E-41"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17917",
+                        "domain_name": "RNase H-like domain found in reverse transcriptase",
+                        "e_value": "2.3E-28"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56672",
+                        "domain_name": "DNA/RNA polymerases",
+                        "e_value": "2.22E-98"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00078",
+                        "domain_name": "Reverse transcriptase (RNA-dependent DNA polymerase)",
+                        "e_value": "6.3E-12"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd01647",
+                        "domain_name": "RT_LTR",
+                        "e_value": "9.95962E-36"
+                    }
+                ]
+            },
+            {
+                "name": "contig_962_ORF.13",
+                "start": 2,
+                "end": 800,
+                "strand": "+",
+                "sequence": "LTNAPAVFMDLMNGVFHPYLDKFVMVFIDDILVYSKNDDEHAAHLRIVLQTLREGQLYAKFSKCEFWLKEVVFLGHVVSGAGIYVDPKKIEAILQWEQPGTVTEIRSFLGLAGYYRGFVQGFSLMAAPLTRLTRKGVKYEWDDVCENRFQELKNRLTSAPVLTLPVSGKEFVVYSDASKLGLGCVLMQDEKVMAYASRQLKKHETNYPTHDLELAAVVFALKIWGHYLYGERCRIFSDHKSLKYLLTQKELNLGQGRWLELIKDYD",
+                "type": "3-prime-partial",
+                "length": 798,
+                "frame": "3",
+                "start_codon": "TTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd09274",
+                        "domain_name": "RNase_HI_RT_Ty3",
+                        "e_value": "1.18558E-40"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00078",
+                        "domain_name": "Reverse transcriptase (RNA-dependent DNA polymerase)",
+                        "e_value": "7.6E-11"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56672",
+                        "domain_name": "DNA/RNA polymerases",
+                        "e_value": "6.94E-97"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF17917",
+                        "domain_name": "RNase H-like domain found in reverse transcriptase",
+                        "e_value": "1.5E-27"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd01647",
+                        "domain_name": "RT_LTR",
+                        "e_value": "9.23274E-35"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_1329",
+        "length": 680,
+        "orfs": [
+            {
+                "name": "contig_1329_ORF.14",
+                "start": 20,
+                "end": 398,
+                "strand": "+",
+                "sequence": "MQSYVPPKGEKIRGKKRKQIKDPNAPKRSLSAFFWFCNDERGQVKANNPDYGVGDIAKELGRKWADAEPHTKQKYEAMAEKDKARYEREMMEYKKKSKPGVPVSEPILKQESDGDDNDDDEEDDDD",
+                "type": "complete",
+                "length": 378,
+                "frame": "3",
+                "start_codon": "ATG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00505",
+                        "domain_name": "HMG (high mobility group) box",
+                        "e_value": "6.5E-18"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF47095",
+                        "domain_name": "HMG-box",
+                        "e_value": "6.02E-27"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1329_ORF.12",
+                "start": 20,
+                "end": 398,
+                "strand": "+",
+                "sequence": "MQSYVPPKGEKMRGKKSKQIKDPNAPKSSLSAFFWFCNDERGQVKANNPDYGVGDIAKELGRKWADAEPHTKQKYEAMAEKDKARYESEMMEYKKKSKPGVPVSEPILKQESDGDDNDDDEEDDDD",
+                "type": "complete",
+                "length": 378,
+                "frame": "3",
+                "start_codon": "ATG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF47095",
+                        "domain_name": "HMG-box",
+                        "e_value": "5.76E-26"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00505",
+                        "domain_name": "HMG (high mobility group) box",
+                        "e_value": "1.9E-16"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF47095",
+                        "domain_name": "HMG-box",
+                        "e_value": "3.14E-26"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00505",
+                        "domain_name": "HMG (high mobility group) box",
+                        "e_value": "6.0E-16"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1329_ORF.12",
+                "start": 20,
+                "end": 398,
+                "strand": "+",
+                "sequence": "MQSYVPPKGEKMRGKKGKQIKDPNAPKGSLSAFFWFCNDERGQVKANNPDYGVGDIAKELGRKWADAEPHTKQKYEAMAEKDKARYEGEMMEYKKKSKPGVPVSEPILKQESDGDDNDDDEEDDDD",
+                "type": "complete",
+                "length": 378,
+                "frame": "3",
+                "start_codon": "ATG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF47095",
+                        "domain_name": "HMG-box",
+                        "e_value": "5.76E-26"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00505",
+                        "domain_name": "HMG (high mobility group) box",
+                        "e_value": "1.9E-16"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF47095",
+                        "domain_name": "HMG-box",
+                        "e_value": "3.14E-26"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00505",
+                        "domain_name": "HMG (high mobility group) box",
+                        "e_value": "6.0E-16"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_1552",
+        "length": 621,
+        "orfs": [
+            {
+                "name": "contig_1552_ORF.1",
+                "start": 0,
+                "end": 420,
+                "strand": "+",
+                "sequence": "LKWKGYDDDENTWEPVENLDCPALIAEFEENYKRKNDEPSSKRKRAPQTPPVTSTTVTKQKKIEKPSENRGFSRGLEAEKIVGATESDGVLQFLIKWKNCEEVDTVVAKEANQKCPQIVIDFYEERLTWHNIENGKVPSK",
+                "type": "complete",
+                "length": 420,
+                "frame": "1",
+                "start_codon": "CTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "7.76E-24"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00385",
+                        "domain_name": "Chromo (CHRromatin Organisation MOdifier) domain",
+                        "e_value": "5.4E-7"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.21356E-26"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "5.82E-11"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "1.6E-21"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.49321E-25"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "6.8E-20"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.43E-23"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "4.47E-23"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "1.1E-19"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.33865E-25"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1552_ORF.1",
+                "start": 45,
+                "end": 420,
+                "strand": "+",
+                "sequence": "VENLDCPALMAEFEENYKRKNDEPSSKRKRAPQTPPVTSTTVTKQKKIEKPSENRGFSRGLEAEKIVGATESDGVLQFLIKWKNCEEVDTVVAKEANQKCPQIVIDFYEESLTWHNMENGKVPSK",
+                "type": "complete",
+                "length": 375,
+                "frame": "1",
+                "start_codon": "GTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "7.76E-24"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00385",
+                        "domain_name": "Chromo (CHRromatin Organisation MOdifier) domain",
+                        "e_value": "5.4E-7"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.21356E-26"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "5.82E-11"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "1.6E-21"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.49321E-25"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "6.8E-20"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.43E-23"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "4.47E-23"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "1.1E-19"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.33865E-25"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1552_ORF.1",
+                "start": 45,
+                "end": 420,
+                "strand": "+",
+                "sequence": "VENLDCPALMAEFEENYKRKNDEPSSKRKRAPQTPPVTSTTVTKQKKIEKPSENRGFSRGLEAEKIVGATESDGVLQFLIKWKNCEEVDTVVAKEANQKCPQIVIDFYEEGLTWHNMENGKVPSK",
+                "type": "complete",
+                "length": 375,
+                "frame": "1",
+                "start_codon": "GTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "7.76E-24"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00385",
+                        "domain_name": "Chromo (CHRromatin Organisation MOdifier) domain",
+                        "e_value": "5.4E-7"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.21356E-26"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "5.82E-11"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "1.6E-21"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.49321E-25"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "6.8E-20"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.43E-23"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "4.47E-23"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "1.1E-19"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd00034",
+                        "domain_name": "CSD",
+                        "e_value": "1.33865E-25"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_1637",
+        "length": 599,
+        "orfs": [
+            {
+                "name": "contig_1637_ORF.11",
+                "start": 2,
+                "end": 458,
+                "strand": "-",
+                "sequence": "IYQDIMSGSGSEEEEYVVEKIIDKRTVNGKVQYFLKWKGYDESENTWEPHENLECPELMAEFESKWEKKQEEKKNASKLKISSEDDAKEKKKKRSTEPVKAQPKVETNKLNGFESGLKPERIIGATDTSGELMFLMKWEGTDEADLVRSVDA",
+                "type": "3-prime-partial",
+                "length": 456,
+                "frame": "-1",
+                "start_codon": "ATC",
+                "stop_codon": "NA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.26E-12"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00385",
+                        "domain_name": "Chromo (CHRromatin Organisation MOdifier) domain",
+                        "e_value": "1.9E-15"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.75E-21"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "6.2E-7"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd18631",
+                        "domain_name": "CD_HP1_like",
+                        "e_value": "5.15094E-23"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1637_ORF.14",
+                "start": 2,
+                "end": 443,
+                "strand": "-",
+                "sequence": "MSGSGSEEEEYVVEKIIDKRTVNGKVQYFLKWKGYDESENTWEPHENLECPELIAEFERKWEKKQEEKKNARKLKISSEDDAKEKKKKRSTEPVKAQPKVETNKLNGFERGLKPERIIGATDTSGELMFLMKWEGTDEADLVRSVDA",
+                "type": "3-prime-partial",
+                "length": 441,
+                "frame": "-1",
+                "start_codon": "ATG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.59E-13"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "9.12E-22"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00385",
+                        "domain_name": "Chromo (CHRromatin Organisation MOdifier) domain",
+                        "e_value": "3.2E-16"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd18631",
+                        "domain_name": "CD_HP1_like",
+                        "e_value": "1.56638E-23"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "5.9E-7"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1637_ORF.12",
+                "start": 2,
+                "end": 443,
+                "strand": "-",
+                "sequence": "MSGSGSEEEEYVVEKIIDKRTVNGKVQYFLKWKGYDESENTWEPHENLECPELMAEFEGKWEKKQEEKKNAGKLKISSEDDAKEKKKKRSTEPVKAQPKVETNKLNGFEGGLKPERIIGATDTSGELMFLMKWEGTDEADLVRSVDA",
+                "type": "3-prime-partial",
+                "length": 441,
+                "frame": "-1",
+                "start_codon": "ATG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF01393",
+                        "domain_name": "Chromo shadow domain",
+                        "e_value": "5.9E-7"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "1.06E-20"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00385",
+                        "domain_name": "Chromo (CHRromatin Organisation MOdifier) domain",
+                        "e_value": "2.8E-15"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54160",
+                        "domain_name": "Chromo domain-like",
+                        "e_value": "2.26E-12"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd18631",
+                        "domain_name": "CD_HP1_like",
+                        "e_value": "4.80322E-23"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_1804",
+        "length": 555,
+        "orfs": [
+            {
+                "name": "contig_1804_ORF.5",
+                "start": 1,
+                "end": 487,
+                "strand": "+",
+                "sequence": "LKLRKKLYLQIIHHNNYELALGPLLLPNVCTMLTNRLLYCMRLLARPVFFFFLSCFSTFGVCPFTLPARAKDPWTLPPNNGTQTSMVKVGNCDAHMSSKSGAPELYSKISVAGTFSSCEMTCLMPLMLSVSATSSWCLFCPLISTVNIFESFNCSFNEDLSY",
+                "type": "complete",
+                "length": 486,
+                "frame": "2",
+                "start_codon": "TTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": []
+            },
+            {
+                "name": "contig_1804_ORF.5",
+                "start": 1,
+                "end": 487,
+                "strand": "+",
+                "sequence": "LKLRKKLYLQIIHHNNYELALGPLLLPNVCTMLTNRLLYCMRLLARPVFFFFLSCFSTFGVCPFTLPARAKDPWTLPPNNGTQTSMVKVGNCDAHMSSKGGAPELYSKISVAGTFSSCEMTCLMPLMLSVSATSSWCLFCPLISTVNIFEGFNCSFNEDLSY",
+                "type": "complete",
+                "length": 486,
+                "frame": "2",
+                "start_codon": "TTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": []
+            },
+            {
+                "name": "contig_1804_ORF.13",
+                "start": 51,
+                "end": 444,
+                "strand": "-",
+                "sequence": "MLTVEIRGQNKHQLEVAETDSISGIKHVISQLENVPATEILLYSSGAPLLDDMCASQLPTLTIDVCVPLLGGKVHGSLARAGKVKGQTPKVEKQDKKKKKTGRAKRRMQYNRRFVNIVQTFGRRRGPNANS",
+                "type": "complete",
+                "length": 393,
+                "frame": "-1",
+                "start_codon": "ATG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54236",
+                        "domain_name": "Ubiquitin-like",
+                        "e_value": "9.44E-10"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF04758",
+                        "domain_name": "Ribosomal protein S30",
+                        "e_value": "2.4E-26"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00240",
+                        "domain_name": "Ubiquitin family",
+                        "e_value": "5.7E-5"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF04758",
+                        "domain_name": "Ribosomal protein S30",
+                        "e_value": "2.3E-24"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF54236",
+                        "domain_name": "Ubiquitin-like",
+                        "e_value": "1.08E-9"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00240",
+                        "domain_name": "Ubiquitin family",
+                        "e_value": "3.1E-5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_1825",
+        "length": 551,
+        "orfs": [
+            {
+                "name": "contig_1825_ORF.22",
+                "start": 120,
+                "end": 531,
+                "strand": "-",
+                "sequence": "VISAKTCPSSPKSWQKQQELPLETMNLDLILLHDASINKELGHVFALITLELNDFAKLFVIHDIPITAEVLLETLENFLVAQILFQPLNSCQAFLSIPLLDSYMHMLLGSSATKFLSLGEWIESSGDLAAYINHVLS",
+                "type": "complete",
+                "length": 411,
+                "frame": "-3",
+                "start_codon": "GTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 5",
+                "domains": []
+            },
+            {
+                "name": "contig_1825_ORF.22",
+                "start": 120,
+                "end": 531,
+                "strand": "-",
+                "sequence": "VISAKTCPSSPKSWQKQQELPLETMNLDLILLHDASINKELGHVFALITLELNDFAKLFVIHDIPITAEVLLETLENFLVAQILFQPLNSCQAFLSIPLLDSYMHMLLGSSATKFLSLGEWIESSGDLAAYINHVLS",
+                "type": "complete",
+                "length": 411,
+                "frame": "-3",
+                "start_codon": "GTG",
+                "stop_codon": "TAA",
+                "code": "Genetic Code 11",
+                "domains": []
+            },
+            {
+                "name": "contig_1825_ORF.5",
+                "start": 166,
+                "end": 550,
+                "strand": "+",
+                "sequence": "IHSPSLSNLVALEPSSMCMYESNSGMESKAWQLFKGWNSIWATSKFSSVSSSTSAVMGMSWMTKSLAKSFSSKVISAKTCPSSLLMLASWSSIKSSFMVSSGSSCCFCHDLGLLGHVFALITLELNDF",
+                "type": "3-prime-partial",
+                "length": 384,
+                "frame": "2",
+                "start_codon": "ATC",
+                "stop_codon": "NA",
+                "code": "Genetic Code 5",
+                "domains": []
+            }
+        ]
+    },
+    {
+        "contig": "contig_1868",
+        "length": 541,
+        "orfs": [
+            {
+                "name": "contig_1868_ORF.10",
+                "start": 5,
+                "end": 539,
+                "strand": "+",
+                "sequence": "VLFVKKKDGSLSLCIDYRQLNKVTVKNKYPLPSMDDLFDQLQGAQCFSKMDLRSGYHQLSIRNEDMPKTAFRTSYGHYEFLVMSFGLTNAPAAFMDLMNRVFKPYLDKFVVVFVDDILMYSKSREEHEQHLKMVLQILSEHRLYAKFSKCEFWLESVAFLGHVVSKEGMRVDTKKIEA",
+                "type": "3-prime-partial",
+                "length": 534,
+                "frame": "3",
+                "start_codon": "GTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00078",
+                        "domain_name": "Reverse transcriptase (RNA-dependent DNA polymerase)",
+                        "e_value": "5.1E-33"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56672",
+                        "domain_name": "DNA/RNA polymerases",
+                        "e_value": "5.43E-76"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd01647",
+                        "domain_name": "RT_LTR",
+                        "e_value": "7.33938E-85"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1868_ORF.12",
+                "start": 5,
+                "end": 539,
+                "strand": "+",
+                "sequence": "VLFVKKKDGSLGLCIDYRQLNKVTVKNKYPLPGMDDLFDQLQGAQCFSKMDLRSGYHQLGIRNEDMPKTAFRTGYGHYEFLVMSFGLTNAPAAFMDLMNRVFKPYLDKFVVVFVDDILMYSKSREEHEQHLKMVLQILGEHRLYAKFSKCEFWLESVAFLGHVVSKEGMRVDTKKIEA",
+                "type": "3-prime-partial",
+                "length": 534,
+                "frame": "3",
+                "start_codon": "GTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00078",
+                        "domain_name": "Reverse transcriptase (RNA-dependent DNA polymerase)",
+                        "e_value": "1.1E-32"
+                    },
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd01647",
+                        "domain_name": "RT_LTR",
+                        "e_value": "4.22349E-83"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56672",
+                        "domain_name": "DNA/RNA polymerases",
+                        "e_value": "7.12E-75"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1868_ORF.11",
+                "start": 41,
+                "end": 539,
+                "strand": "+",
+                "sequence": "LCIDYRQLNKVTVKNKYPLPRIDDLFDQLQGAQCFSKIDLRSGYHQLRIRNEDIPKTAFRTRYGHYEFLVMSFGLTNAPAAFMDLMNRVFKPYLDKFVVVFVDDILIYSKSREEHEQHLKIVLQILREHRLYAKFSKCEFWLESVAFLGHVVSKEGIRVDTKKIEA",
+                "type": "3-prime-partial",
+                "length": 498,
+                "frame": "3",
+                "start_codon": "CTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "CDD",
+                        "domain_code": "cd01647",
+                        "domain_name": "RT_LTR",
+                        "e_value": "2.49315E-83"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF56672",
+                        "domain_name": "DNA/RNA polymerases",
+                        "e_value": "2.0E-74"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF00078",
+                        "domain_name": "Reverse transcriptase (RNA-dependent DNA polymerase)",
+                        "e_value": "2.0E-33"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "contig": "contig_1884",
+        "length": 539,
+        "orfs": [
+            {
+                "name": "contig_1884_ORF.12",
+                "start": 2,
+                "end": 539,
+                "strand": "+",
+                "sequence": "LNLQRGRDHGLPPYNDWSEVCGLDRAKSWNDLEDMMDVETIERLASLYDSVDEVDLYVGGVSENPAAGALLGPTFVCLIGDQFSSLRRGDSFFYEEGGQLSSFSEAQLSELRKASLARILCDNSDNLVVMQPLAFFKPSLLNQSVPCDSQAIPSVDLSAWVNEVPAVPWFSWSTSHDWI",
+                "type": "3-prime-partial",
+                "length": 537,
+                "frame": "3",
+                "start_codon": "TTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 5",
+                "domains": [
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "4.1E-51"
+                    },
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "2.71E-54"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1884_ORF.11",
+                "start": 2,
+                "end": 539,
+                "strand": "+",
+                "sequence": "LNLQRGRDHGLPPYNDWGEVCGLDRAKSWNDLEDMMDVETIERLASLYDSVDEVDLYVGGVSENPAAGALLGPTFVCLIGDQFSGLRRGDGFFYEEGGQLSSFSEAQLGELRKASLARILCDNSDNLVVMQPLAFFKPSLLNQGVPCDSQAIPGVDLGAWVNEVPAVPWFSWSTSHDWI",
+                "type": "3-prime-partial",
+                "length": 537,
+                "frame": "3",
+                "start_codon": "TTG",
+                "stop_codon": "NA",
+                "code": "Genetic Code 11",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "2.24E-53"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "1.2E-49"
+                    }
+                ]
+            },
+            {
+                "name": "contig_1884_ORF.8",
+                "start": 2,
+                "end": 506,
+                "strand": "+",
+                "sequence": "LNLQRGRDHGLPPYNDWREVCGLDRAKSWNDLEDMMDVETIERLASLYDSVDEVDLYVGGVSENPAAGALLGPTFVCLIGDQFSRLRRGDRFFYEEGGQLSSFSEAQLRELRKASLARILCDNSDNLVVMQPLAFFKPSLLNQRVPCDSQAIPRVDLRAWVNEVPAVP",
+                "type": "complete",
+                "length": 504,
+                "frame": "3",
+                "start_codon": "TTG",
+                "stop_codon": "TGA",
+                "code": "Genetic Code 1",
+                "domains": [
+                    {
+                        "database": "SUPERFAMILY",
+                        "domain_code": "SSF48113",
+                        "domain_name": "Heme-dependent peroxidases",
+                        "e_value": "1.29E-57"
+                    },
+                    {
+                        "database": "Pfam",
+                        "domain_code": "PF03098",
+                        "domain_name": "Animal haem peroxidase",
+                        "e_value": "1.1E-54"
+                    }
+                ]
+            }
+        ]
+    }
+]

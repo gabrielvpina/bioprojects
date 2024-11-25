@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORF Visualization</title>
+    <style>
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .visualization-wrapper {
+            width: 100%;
+            height: 400px;
+            position: relative;
+            background: white;
+        }
+        .tooltip {
+            position: absolute;
+            background: white;
+            border: 1px solid #ccc;
+            padding: 8px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: none;
+            pointer-events: none;
+            z-index: 100;
+        }
+        #visualization {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="visualization-wrapper">
+            <svg id="visualization"></svg>
+        </div>
+        <div class="tooltip"></div>
+    </div>
+
+    <script>
+        function initVisualization(data) {
+            const svg = document.getElementById('visualization');
+            const container = document.querySelector('.visualization-wrapper');
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+            const padding = { top: 40, right: 40, bottom: 40, left: 40 };
+
+            // Clear existing content
+            svg.innerHTML = '';
+            svg.setAttribute('width', width);
+            svg.setAttribute('height', height);
+
+            // Calculate scale
+            const xScale = (width - padding.left - padding.right) / data.length;
+
+            // Draw contig line
+            const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            line.setAttribute('x1', padding.left);
+            line.setAttribute('y1', height/2);
+            line.setAttribute('x2', width - padding.right);
+            line.setAttribute('y2', height/2);
+            line.setAttribute('stroke', 'black');
+            line.setAttribute('stroke-width', '2');
+            svg.appendChild(line);
+
+            // Draw ORFs
+            data.orfs.forEach(orf => {
+                const x = padding.left + (orf.start * xScale);
+                const width = (orf.end - orf.start) * xScale;
+                const y = height/2 + (orf.strand === '+' ? -30 : 10);
+                const height = 20;
+
+                const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+                rect.setAttribute('x', x);
+                rect.setAttribute('y', y);
+                rect.setAttribute('width', width);
+                rect.setAttribute('height', height);
+                rect.setAttribute('fill', orf.strand === '+' ? '#4CAF50' : '#F44336');
+                rect.setAttribute('stroke', 'black');
+                rect.setAttribute('stroke-width', '1');
+
+                rect.addEventListener('mouseover', (e) => showTooltip(e, orf));
+                rect.addEventListener('mouseout', hideTooltip);
+
+                svg.appendChild(rect);
+            });
+
+            // Add title
+            const title = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            title.setAttribute('x', width/2);
+            title.setAttribute('y', padding.top/2);
+            title.setAttribute('text-anchor', 'middle');
+            title.setAttribute('font-size', '16px');
+            title.textContent = `Contig: ${data.contig}`;
+            svg.appendChild(title);
+
+            // Add scale markers
+            for (let i = 0; i <= data.length; i += 100) {
+                const x = padding.left + (i * xScale);
+                
+                const tick = document.createElementNS("http://www.w3.org/2000/svg", "line");
+                tick.setAttribute('x1', x);
+                tick.setAttribute('y1', height/2 - 5);
+                tick.setAttribute('x2', x);
+                tick.setAttribute('y2', height/2 + 5);
+                tick.setAttribute('stroke', 'black');
+                svg.appendChild(tick);
+
+                const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                label.setAttribute('x', x);
+                label.setAttribute('y', height/2 + 20);
+                label.setAttribute('text-anchor', 'middle');
+                label.setAttribute('font-size', '12px');
+                label.textContent = i;
+                svg.appendChild(label);
+            }
+        }
+
+        function showTooltip(event, orf) {
+            const tooltip = document.querySelector('.tooltip');
+            tooltip.style.display = 'block';
+            tooltip.style.left = `${event.pageX + 10}px`;
+            tooltip.style.top = `${event.pageY + 10}px`;
+            
+            let domainsText = '';
+            if (orf.domains) {
+                domainsText = '<br><strong>Domains:</strong><br>' + 
+                    orf.domains.map(d => `${d.domain_name} (${d.database}) - ${d.domain_code}`).join('<br>');
+            }
+
+            tooltip.innerHTML = `
+                <strong>${orf.name}</strong><br>
+                Position: ${orf.start}-${orf.end}<br>
+                Strand: ${orf.strand}<br>
+                Length: ${orf.length}bp
+                ${domainsText}
+            `;
+        }
+
+        function hideTooltip() {
+            document.querySelector('.tooltip').style.display = 'none';
+        }
+
+        // Load data and initialize visualization
+        fetch('/static/orfs.json')
+            .then(response => response.json())
+            .then(data => initVisualization(data))
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>

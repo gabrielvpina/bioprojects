@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORFs Visualization</title>
+    <style>
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .visualization-wrapper {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        .tooltip {
+            position: absolute;
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 4px;
+            pointer-events: none;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="visualization-wrapper">
+            <svg id="visualization"></svg>
+        </div>
+        <div class="tooltip"></div>
+    </div>
+
+    <script>
+        // Function to load JSON data
+        async function loadData() {
+            try {
+                const response = await fetch('/static/orfs.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load data');
+                }
+                const data = await response.json();
+                initializeVisualization(data);
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.querySelector('.visualization-wrapper').innerHTML = 
+                    '<p>Error loading data. Please check if the JSON file exists in the static folder.</p>';
+            }
+        }
+
+        // Function to initialize visualization with the loaded data
+        function initializeVisualization(data) {
+            const svg = document.getElementById('visualization');
+            // Clear existing content
+            svg.innerHTML = '';
+            
+            // Set up the visualization using the data
+            // Add your visualization code here using the loaded JSON data
+            
+            // Example: Set SVG attributes
+            svg.setAttribute('width', '100%');
+            svg.setAttribute('height', '100%');
+            svg.setAttribute('viewBox', '0 0 800 600');
+        }
+
+        // Load data when the page loads
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

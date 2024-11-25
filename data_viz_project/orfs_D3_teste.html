@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORFs Visualization by Genetic Code</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px;
+        }
+
+        .visualization-wrapper {
+            position: relative;
+            width: 100%;
+            overflow-x: auto;
+            overflow-y: visible;
+        }
+
+        #visualization {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .tooltip {
+            position: fixed;
+            background: #f9f9f9;
+            border: 1px solid #d3d3d3;
+            padding: 10px;
+            border-radius: 5px;
+            pointer-events: none;
+            font-size: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+            max-width: 300px;
+        }
+
+        .orf {
+            fill: steelblue;
+            stroke: black;
+            stroke-width: 1;
+            transition: opacity 0.2s;
+        }
+
+        .orf:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .arrow {
+            fill: steelblue;
+        }
+
+        .genome-line {
+            stroke: black;
+            stroke-width: 2;
+        }
+
+        .contig-label {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .genetic-code-label {
+            font-size: 12px;
+            fill: #666;
+        }
+
+        .scale-axis {
+            font-size: 12px;
+        }
+
+        .contig-group {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="visualization-wrapper">
+            <svg id="visualization"></svg>
+        </div>
+        <div class="tooltip" style="display: none;"></div>
+    </div>
+
+    <script>
+        function createVisualization(data) {
+            // Get unique genetic codes from the data
+            const geneticCodes = [...new Set(data.orfs.map(orf => orf.code))];
+            
+            // Calculate heights
+            const trackHeight = 80; // Height for each genetic code track
+            const geneticCodeSpacing = 20; // Space between genetic code tracks
+            const totalHeight = (trackHeight + geneticCodeSpacing) * geneticCodes.length + 100;
+
+            // Set up SVG dimensions
+            const margin = { top: 40, right: 60, bottom: 40, left: 200 };
+            const width = Math.min(window.innerWidth - 40, 1200);
+            const height = totalHeight;
+
+            // Create SVG
+            const svg = d3.select("#visualization")
+                .attr("width", width)
+                .attr("height", height);
+
+            // Clear existing content
+            svg.selectAll("*").remove();
+
+            // Create main group
+            const mainGroup = svg.append("g")
+                .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+            const innerWidth = width - margin.left - margin.right;
+
+            // Add contig label
+            mainGroup.append("text")
+                .attr("class", "contig-label")
+                .attr("x", -10)
+                .attr("y", -20)
+                .attr("text-anchor", "end")
+                .text(`Contig ${data.contig}`);
+
+            // Create scale for this contig
+            const xScale = d3.scaleLinear()
+                .domain([0, data.length])
+                .range([0, innerWidth]);
+
+            // Process each genetic code
+            geneticCodes.forEach((geneticCode, codeIndex) => {
+                const trackY = codeIndex * (trackHeight + geneticCodeSpacing);
+                const trackGroup = mainGroup.append("g")
+                    .attr("transform", `translate(0, ${trackY})`);
+
+                // Add genetic code label
+                trackGroup.append("text")
+                    .attr("class", "genetic-code-label")
+                    .attr("x", -10)
+                    .attr("y", trackHeight / 2)
+                    .attr("text-anchor", "end")
+                    .attr("dominant-baseline", "middle")
+                    .text(geneticCode);
+
+                // Draw genome line
+                trackGroup.append("line")
+                    .attr("class", "genome-line")
+                    .attr("x1", 0)
+                    .attr("x2", innerWidth)
+                    .attr("y1", trackHeight / 2)
+                    .attr("y2", trackHeight / 2);
+
+                // Add scale axis (only for the last genetic code track)
+                if (codeIndex === geneticCodes.length - 1) {
+                    const xAxis = d3.axisBottom(xScale).ticks(5);
+                    trackGroup.append("g")
+                        .attr("class", "scale-axis")
+                        .attr("transform", `translate(0, ${trackHeight + 10})`)
+                        .call(xAxis);
+                }
+
+                // Filter ORFs for this genetic code
+                const codeOrfs = data.orfs.filter(orf => orf.code === geneticCode);
+
+                // Draw ORFs
+                const tooltip = d3.select(".tooltip");
+
+                codeOrfs.forEach(orf => {
+                    const orfGroup = trackGroup.append("g");
+                    const orfHeight = 30;
+
+                    // Add ORF rectangle
+                    orfGroup.append("rect")
+                        .attr("x", xScale(orf.start))
+                        .attr("y", (trackHeight - orfHeight) / 2)
+                        .attr("width", xScale(orf.end) - xScale(orf.start))
+                        .attr("height", orfHeight)
+                        .attr("class", "orf")
+                        .on("mouseover", (event) => {
+                            tooltip.style("display", "block")
+                                .html(`
+                                    <strong>${orf.name}</strong><br>
+                                    Type: ${orf.type}<br>
+                                    Length: ${orf.length} bp<br>
+                                    Frame: ${orf.frame}<br>
+                                    Strand: ${orf.strand}<br>
+                                    Genetic Code: ${orf.code}<br>
+                                    Start codon: ${orf.start_codon}<br>
+                                    Stop codon: ${orf.stop_codon}<br>
+                                    ${orf.domains ? 
+                                        `Domains: ${orf.domains.map(d => 
+                                            `${d.domain_name} (${d.database}, E-value: ${d.e_value}, Code: ${d.domain_code})`
+                                        ).join("<br>")}` : 
+                                        "No domains available"}
+                                `);
+                        })
+                        .on("mousemove", (event) => {
+                            const tooltipWidth = tooltip.node().offsetWidth;
+                            const tooltipHeight = tooltip.node().offsetHeight;
+                            
+                            let xPosition = event.clientX + 10;
+                            let yPosition = event.clientY - tooltipHeight - 10;
+
+                            if (xPosition + tooltipWidth > window.innerWidth) {
+                                xPosition = event.clientX - tooltipWidth - 10;
+                            }
+                            if (yPosition < 0) {
+                                yPosition = event.clientY + 10;
+                            }
+
+                            tooltip
+                                .style("left", xPosition + "px")
+                                .style("top", yPosition + "px");
+                        })
+                        .on("mouseout", () => {
+                            tooltip.style("display", "none");
+                        });
+
+                    // Add direction arrow
+                    const arrowWidth = 8;
+                    const arrowHeight = 8;
+                    const arrowX = orf.strand === "+" ? xScale(orf.end) : xScale(orf.start);
+                    const direction = orf.strand === "+" ? 1 : -1;
+
+                    orfGroup.append("polygon")
+                        .attr("class", "arrow")
+                        .attr("points", `
+                            ${arrowX},${trackHeight / 2} 
+                            ${arrowX - direction * arrowWidth},${trackHeight / 2 - arrowHeight} 
+                            ${arrowX - direction * arrowWidth},${trackHeight / 2 + arrowHeight}
+                        `);
+                });
+            });
+        }
+
+        // Test data
+        const testData = {
+            "contig": "contig_1884",
+            "length": 539,
+            "orfs": [
+                {
+                    "name": "contig_1884_ORF.12",
+                    "start": 2,
+                    "end": 539,
+                    "strand": "+",
+                    "type": "3-prime-partial",
+                    "length": 537,
+                    "frame": "3",
+                    "start_codon": "TTG",
+                    "stop_codon": "NA",
+                    "code": "Genetic Code 5",
+                    "domains": [
+                        {
+                            "database": "Pfam",
+                            "domain_name": "Animal haem peroxidase",
+                            "domain_code": "AKS32085",
+                            "e_value": "4.1E-51"
+                        }
+                    ]
+                },
+                {
+                    "name": "contig_1884_ORF.11",
+                    "start": 2,
+                    "end": 539,
+                    "strand": "+",
+                    "type": "3-prime-partial",
+                    "length": 537,
+                    "frame": "3",
+                    "start_codon": "TTG",
+                    "stop_codon": "NA",
+                    "code": "Genetic Code 11",
+                    "domains": [
+                        {
+                            "database": "Pfam",
+                            "domain_name": "Animal haem peroxidase",
+                            "domain_code": "KJDN1984y7656757865",
+                            "e_value": "1.2E-49"
+                        }
+                    ]
+                }
+            ]
+        };
+
+        // Initial load with test data
+        createVisualization(testData);
+
+        // Handle window resize
+        window.addEventListener('resize', () => createVisualization(testData));
+    </script>
+</body>
+</html>

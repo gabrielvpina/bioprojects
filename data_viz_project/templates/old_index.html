@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORF Visualization</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    .line {
+      stroke: black;
+      stroke-width: 2;
+    }
+    .utr {
+      fill: lightgray;
+      stroke: black;
+      stroke-width: 1;
+    }
+    .orf {
+      fill: steelblue;
+      stroke: black;
+      stroke-width: 1;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: white;
+      border: 1px solid black;
+      padding: 5px;
+      pointer-events: none;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div id="tooltip" class="tooltip" style="display: none;"></div>
+  <svg id="visualization" width="800" height="200"></svg>
+
+  <script>
+    // Função principal para carregar o arquivo JSON
+    d3.json("../static/data.json").then(data => {
+      // Set up the SVG canvas
+      const svg = d3.select("#visualization");
+      const width = 800;
+      const height = 200;
+      const margin = 20;
+      const scaleX = d3.scaleLinear().domain([0, data.length]).range([margin, width - margin]);
+
+      // Tooltip for interactivity
+      const tooltip = d3.select("#tooltip");
+
+      // Draw UTR regions
+      svg.selectAll(".utr")
+        .data(data.utr_regions)
+        .enter()
+        .append("rect")
+        .attr("class", "utr")
+        .attr("x", d => scaleX(d.start))
+        .attr("y", height / 2 - 10)
+        .attr("width", d => scaleX(d.end) - scaleX(d.start))
+        .attr("height", 20);
+
+      // Draw ORFs
+      svg.selectAll(".orf")
+        .data(data.orfs)
+        .enter()
+        .append("rect")
+        .attr("class", "orf")
+        .attr("x", d => scaleX(d.start))
+        .attr("y", height / 2 - 30)
+        .attr("width", d => scaleX(d.end) - scaleX(d.start))
+        .attr("height", 40)
+        .on("mouseover", function(event, d) {
+          const domains = d.domains.map(dom => `${dom.domain_name} (${dom.domain_code}): e-value ${dom.e_value}`).join("<br>");
+          tooltip.html(`
+            <strong>${d.name}</strong><br>
+            Start: ${d.start} | End: ${d.end}<br>
+            Strand: ${d.strand}<br>
+            Start Codon: ${d.start_codon} | Stop Codon: ${d.stop_codon}<br>
+            Domains: <br>${domains}
+          `)
+          .style("left", `${event.pageX + 10}px`)
+          .style("top", `${event.pageY + 10}px`)
+          .style("display", "block");
+        })
+        .on("mouseout", function() {
+          tooltip.style("display", "none");
+        });
+
+      // Draw the main line
+      svg.append("line")
+        .attr("class", "line")
+        .attr("x1", scaleX(0))
+        .attr("y1", height / 2)
+        .attr("x2", scaleX(data.length))
+        .attr("y2", height / 2);
+    }).catch(error => {
+      console.error("Erro ao carregar o arquivo JSON:", error);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	Gene3D	G3DSA:3.30.780.10	-	1	113	5.5E-48	T	25-09-2024	-	-	-	-
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	Pfam	PF01253	Translation initiation factor SUI1	29	102	6.3E-24	T	25-09-2024	IPR001950	SUI1 domain	-	-
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	FunFam	G3DSA:3.30.780.10:FF:000010	Protein translation factor SUI1	4	113	2.8E-67	T	25-09-2024	-	-	-	-
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	CDD	cd11566	eIF1_SUI1	29	112	3.24629E-53	T	25-09-2024	IPR005874	Eukaryotic translation initiation factor SUI1	-	-
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	PIRSF	PIRSF004499	Transl_init_SUI1_Euk	1	113	1.3E-47	T	25-09-2024	IPR005874	Eukaryotic translation initiation factor SUI1	-	-
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	ProSiteProfiles	PS50296	Translation initiation factor SUI1 family profile.	31	101	24.797741	T	25-09-2024	IPR001950	SUI1 domain	-	-
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	NCBIfam	TIGR01160	translation initiation factor SUI1	5	113	1.1E-45	T	25-09-2024	IPR005874	Eukaryotic translation initiation factor SUI1	-	-
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	PANTHER	PTHR10388	EUKARYOTIC TRANSLATION INITIATION FACTOR SUI1	7	113	8.8E-36	T	25-09-2024	-	-	-	-
+contig_842_ORF.22	d44ee273b624a9719367121b0900c4ba	113	SUPERFAMILY	SSF55159	eIF1-like	3	113	2.49E-35	T	25-09-2024	IPR036877	SUI1 domain superfamily	-	-
+contig_1804_ORF.13	d0b2a684c2e16a4ba6b3f5724afcbb6a	131	SUPERFAMILY	SSF54236	Ubiquitin-like	2	86	9.44E-10	T	25-09-2024	IPR029071	Ubiquitin-like domain superfamily	-	-
+contig_1804_ORF.13	d0b2a684c2e16a4ba6b3f5724afcbb6a	131	PANTHER	PTHR12650	40S RIBOSOMAL PROTEIN S30/UBIQUITIN-LIKE PROTEIN FUBI	61	131	4.5E-38	T	25-09-2024	-	-	-	-
+contig_1804_ORF.13	d0b2a684c2e16a4ba6b3f5724afcbb6a	131	ProSiteProfiles	PS50053	Ubiquitin domain profile.	1	58	10.418738	T	25-09-2024	IPR000626	Ubiquitin-like domain	-	-
+contig_1804_ORF.13	d0b2a684c2e16a4ba6b3f5724afcbb6a	131	Pfam	PF04758	Ribosomal protein S30	73	130	2.4E-26	T	25-09-2024	IPR006846	Small ribosomal subunit protein eS30	-	-
+contig_1804_ORF.13	d0b2a684c2e16a4ba6b3f5724afcbb6a	131	MobiDBLite	mobidb-lite	consensus disorder prediction	81	108	-	T	25-09-2024	-	-	-	-
+contig_1804_ORF.13	d0b2a684c2e16a4ba6b3f5724afcbb6a	131	Gene3D	G3DSA:3.10.20.90	-	1	65	2.6E-5	T	25-09-2024	-	-	-	-
+contig_1804_ORF.13	d0b2a684c2e16a4ba6b3f5724afcbb6a	131	Pfam	PF00240	Ubiquitin family	3	58	5.7E-5	T	25-09-2024	IPR000626	Ubiquitin-like domain	-	-
+contig_1884_ORF.8	9bc48520bc6cc6c75afeb406b4cd8a62	168	ProSiteProfiles	PS50292	Animal heme peroxidase superfamily profile.	1	164	62.384033	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_1884_ORF.8	9bc48520bc6cc6c75afeb406b4cd8a62	168	Gene3D	G3DSA:1.10.640.10	Haem peroxidase domain superfamily, animal type	1	164	9.0E-62	T	25-09-2024	IPR037120	Haem peroxidase domain superfamily, animal type	-	-
+contig_1884_ORF.8	9bc48520bc6cc6c75afeb406b4cd8a62	168	PANTHER	PTHR11475	OXIDASE/PEROXIDASE	1	162	6.9E-65	T	25-09-2024	IPR050702	Peroxidase Activity and Reactive Species Generation	-	-
+contig_1884_ORF.8	9bc48520bc6cc6c75afeb406b4cd8a62	168	SUPERFAMILY	SSF48113	Heme-dependent peroxidases	1	161	1.29E-57	T	25-09-2024	IPR010255	Haem peroxidase superfamily	-	-
+contig_1884_ORF.8	9bc48520bc6cc6c75afeb406b4cd8a62	168	PRINTS	PR00457	Animal haem peroxidase signature	37	57	4.3E-6	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_1884_ORF.8	9bc48520bc6cc6c75afeb406b4cd8a62	168	PRINTS	PR00457	Animal haem peroxidase signature	111	125	4.3E-6	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_1884_ORF.8	9bc48520bc6cc6c75afeb406b4cd8a62	168	Pfam	PF03098	Animal haem peroxidase	1	135	1.1E-54	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	FunFam	G3DSA:1.10.340.70:FF:000001	Retrovirus-related Pol polyprotein from transposon gypsy-like Protein	9	104	1.3E-14	T	25-09-2024	-	-	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	Gene3D	G3DSA:1.10.340.70	-	13	105	5.0E-22	T	25-09-2024	-	-	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	PANTHER	PTHR45835	YALI0A06105P	22	451	6.7E-139	T	25-09-2024	-	-	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	MobiDBLite	mobidb-lite	consensus disorder prediction	473	493	-	T	25-09-2024	-	-	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	Gene3D	G3DSA:3.30.420.10	-	114	321	8.7E-49	T	25-09-2024	IPR036397	Ribonuclease H superfamily	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	ProSiteProfiles	PS50994	Integrase catalytic domain profile.	115	280	20.668083	T	25-09-2024	IPR001584	Integrase, catalytic core	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	MobiDBLite	mobidb-lite	consensus disorder prediction	479	493	-	T	25-09-2024	-	-	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	SUPERFAMILY	SSF54160	Chromo domain-like	388	471	1.07E-7	T	25-09-2024	IPR016197	Chromo-like domain superfamily	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	Pfam	PF17921	Integrase zinc binding domain	49	106	3.4E-18	T	25-09-2024	IPR041588	Integrase zinc-binding domain	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	Coils	Coil	Coil	301	328	-	T	25-09-2024	-	-	-	-
+contig_130_ORF.45	f7c77e07bfdc265d66d71ca364c5bf57	493	SUPERFAMILY	SSF53098	Ribonuclease H-like	117	277	2.73E-41	T	25-09-2024	IPR012337	Ribonuclease H-like superfamily	-	-
+contig_747_ORF.27	7cbc363eebd8c184a5a504b365780ea8	293	Gene3D	G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1	97	293	1.9E-52	T	25-09-2024	-	-	-	-
+contig_747_ORF.27	7cbc363eebd8c184a5a504b365780ea8	293	Gene3D	G3DSA:3.30.200.20	Phosphorylase Kinase; domain 1	1	96	3.4E-19	T	25-09-2024	-	-	-	-
+contig_747_ORF.27	7cbc363eebd8c184a5a504b365780ea8	293	ProSiteProfiles	PS50011	Protein kinase domain profile.	1	293	29.672226	T	25-09-2024	IPR000719	Protein kinase domain	-	-
+contig_747_ORF.27	7cbc363eebd8c184a5a504b365780ea8	293	SUPERFAMILY	SSF56112	Protein kinase-like (PK-like)	35	293	1.14E-59	T	25-09-2024	IPR011009	Protein kinase-like domain superfamily	-	-
+contig_747_ORF.27	7cbc363eebd8c184a5a504b365780ea8	293	PANTHER	PTHR27003	OS07G0166700 PROTEIN	5	293	2.2E-85	T	25-09-2024	IPR045272	Receptor-like protein kinase ANXUR1-like	-	-
+contig_747_ORF.27	7cbc363eebd8c184a5a504b365780ea8	293	Pfam	PF07714	Protein tyrosine and serine/threonine kinase	35	291	4.9E-36	T	25-09-2024	IPR001245	Serine-threonine/tyrosine-protein kinase, catalytic domain	-	-
+contig_344_ORF.1	4bb2a6973fa965f553752ded6a3db451	420	PANTHER	PTHR45835	YALI0A06105P	1	385	2.4E-128	T	25-09-2024	-	-	-	-
+contig_344_ORF.1	4bb2a6973fa965f553752ded6a3db451	420	ProSiteProfiles	PS50994	Integrase catalytic domain profile.	59	224	20.058304	T	25-09-2024	IPR001584	Integrase, catalytic core	-	-
+contig_344_ORF.1	4bb2a6973fa965f553752ded6a3db451	420	FunFam	G3DSA:3.30.420.10:FF:000032	Retrovirus-related Pol polyprotein from transposon 297-like Protein	60	265	7.1E-50	T	25-09-2024	-	-	-	-
+contig_344_ORF.1	4bb2a6973fa965f553752ded6a3db451	420	SUPERFAMILY	SSF54160	Chromo domain-like	332	412	2.75E-5	T	25-09-2024	IPR016197	Chromo-like domain superfamily	-	-
+contig_344_ORF.1	4bb2a6973fa965f553752ded6a3db451	420	SUPERFAMILY	SSF53098	Ribonuclease H-like	61	220	1.09E-42	T	25-09-2024	IPR012337	Ribonuclease H-like superfamily	-	-
+contig_344_ORF.1	4bb2a6973fa965f553752ded6a3db451	420	Gene3D	G3DSA:1.10.340.70	-	1	49	2.1E-13	T	25-09-2024	-	-	-	-
+contig_344_ORF.1	4bb2a6973fa965f553752ded6a3db451	420	Pfam	PF17921	Integrase zinc binding domain	1	50	5.5E-12	T	25-09-2024	IPR041588	Integrase zinc-binding domain	-	-
+contig_344_ORF.1	4bb2a6973fa965f553752ded6a3db451	420	Gene3D	G3DSA:3.30.420.10	-	59	264	2.9E-48	T	25-09-2024	IPR036397	Ribonuclease H superfamily	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	ProSiteProfiles	PS50013	Chromo and chromo shadow domain profile.	11	69	22.530602	T	25-09-2024	IPR000953	Chromo/chromo shadow domain	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	MobiDBLite	mobidb-lite	consensus disorder prediction	68	95	-	T	25-09-2024	-	-	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	PANTHER	PTHR22812	CHROMOBOX PROTEIN	4	143	1.4E-42	T	25-09-2024	IPR051219	Heterochromatin-associated chromo domain-containing protein	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	FunFam	G3DSA:2.40.50.40:FF:000007	Chromobox protein homolog 1	2	73	1.5E-28	T	25-09-2024	-	-	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	SUPERFAMILY	SSF54160	Chromo domain-like	104	144	2.59E-13	T	25-09-2024	IPR016197	Chromo-like domain superfamily	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	ProSiteProfiles	PS50013	Chromo and chromo shadow domain profile.	112	147	10.331201	T	25-09-2024	IPR000953	Chromo/chromo shadow domain	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	SMART	SM00298	chromo_7	10	62	1.8E-19	T	25-09-2024	IPR000953	Chromo/chromo shadow domain	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	Coils	Coil	Coil	54	74	-	T	25-09-2024	-	-	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	SUPERFAMILY	SSF54160	Chromo domain-like	7	64	9.12E-22	T	25-09-2024	IPR016197	Chromo-like domain superfamily	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	Pfam	PF00385	Chromo (CHRromatin Organisation MOdifier) domain	11	60	3.2E-16	T	25-09-2024	IPR023780	Chromo domain	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	Gene3D	G3DSA:2.40.50.40	-	85	147	6.2E-19	T	25-09-2024	-	-	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	MobiDBLite	mobidb-lite	consensus disorder prediction	68	106	-	T	25-09-2024	-	-	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	CDD	cd18631	CD_HP1_like	10	57	1.56638E-23	T	25-09-2024	-	-	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	Gene3D	G3DSA:2.40.50.40	-	3	74	8.7E-27	T	25-09-2024	-	-	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	PRINTS	PR00504	Chromodomain signature	21	35	1.3E-9	T	25-09-2024	IPR017984	Chromo domain subgroup	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	PRINTS	PR00504	Chromodomain signature	8	16	1.3E-9	T	25-09-2024	IPR017984	Chromo domain subgroup	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	PRINTS	PR00504	Chromodomain signature	36	48	1.3E-9	T	25-09-2024	IPR017984	Chromo domain subgroup	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	Pfam	PF01393	Chromo shadow domain	114	144	5.9E-7	T	25-09-2024	IPR008251	Chromo shadow domain	-	-
+contig_1637_ORF.14	c0ca8522c7a2c5f2912a4f6487ae5fec	147	ProSitePatterns	PS00598	Chromo domain signature.	28	48	-	T	25-09-2024	IPR023779	Chromo domain, conserved site	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	ProSiteProfiles	PS50296	Translation initiation factor SUI1 family profile.	30	100	22.84745	T	25-09-2024	IPR001950	SUI1 domain	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	SUPERFAMILY	SSF55159	eIF1-like	4	112	1.83E-32	T	25-09-2024	IPR036877	SUI1 domain superfamily	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	CDD	cd11566	eIF1_SUI1	28	111	1.30778E-46	T	25-09-2024	IPR005874	Eukaryotic translation initiation factor SUI1	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	PANTHER	PTHR10388	EUKARYOTIC TRANSLATION INITIATION FACTOR SUI1	6	112	2.8E-43	T	25-09-2024	-	-	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	Pfam	PF01253	Translation initiation factor SUI1	27	101	1.1E-20	T	25-09-2024	IPR001950	SUI1 domain	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	NCBIfam	TIGR01160	translation initiation factor SUI1	7	112	7.3E-47	T	25-09-2024	IPR005874	Eukaryotic translation initiation factor SUI1	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	FunFam	G3DSA:3.30.780.10:FF:000001	Eukaryotic translation initiation factor SUI1	2	112	2.2E-55	T	25-09-2024	-	-	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	PIRSF	PIRSF004499	Transl_init_SUI1_Euk	2	112	2.8E-48	T	25-09-2024	IPR005874	Eukaryotic translation initiation factor SUI1	-	-
+contig_1825_ORF.3	b0248e49700fa81b207e2eb1067d723d	112	Gene3D	G3DSA:3.30.780.10	-	3	112	4.7E-44	T	25-09-2024	-	-	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	FunFam	G3DSA:3.40.50.720:FF:000084	Short-chain dehydrogenase reductase	11	274	1.3E-69	T	25-09-2024	-	-	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	27	271	1.57E-75	T	25-09-2024	IPR036291	NAD(P)-binding domain superfamily	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	104	115	3.4E-7	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	177	196	3.4E-7	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00080	Short-chain dehydrogenase/reductase (SDR) superfamily signature	157	165	3.4E-7	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	Gene3D	G3DSA:3.40.50.720	-	9	274	4.2E-81	T	25-09-2024	-	-	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	Pfam	PF13561	Enoyl-(Acyl carrier protein) reductase	37	270	9.5E-54	T	25-09-2024	-	-	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	29	46	1.4E-40	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	104	115	1.4E-40	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	198	215	1.4E-40	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	233	253	1.4E-40	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	177	196	1.4E-40	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PRINTS	PR00081	Glucose/ribitol dehydrogenase family signature	151	167	1.4E-40	T	25-09-2024	IPR002347	Short-chain dehydrogenase/reductase SDR	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	PANTHER	PTHR42898	TROPINONE REDUCTASE	17	274	5.2E-126	T	25-09-2024	IPR045000	Tropinone reductase	-	-
+contig_523_ORF.34	652890a5dfc567c7e2c7250b10573f00	281	SMART	SM00822	This enzymatic domain is part of bacterial polyketide synthases and catalyses the first step in the reductive modification of the beta-carbonyl centres in the growing polyketide chain. It uses NADPH to reduce the keto group to a hydroxy group.	28	203	0.0093	T	25-09-2024	-	-	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	SMART	SM00174	rho_sub_3	19	177	1.2E-8	T	25-09-2024	IPR001806	Small GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	16	203	6.62E-50	T	25-09-2024	IPR027417	P-loop containing nucleoside triphosphate hydrolase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	ProSiteProfiles	PS51421	small GTPase Ras family profile.	12	215	8.878776	T	25-09-2024	IPR001806	Small GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	PRINTS	PR00627	GTP-binding nuclear protein Ran/Tc4 family signature	97	118	1.2E-59	T	25-09-2024	IPR002041	Ran GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	PRINTS	PR00627	GTP-binding nuclear protein Ran/Tc4 family signature	171	193	1.2E-59	T	25-09-2024	IPR002041	Ran GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	PRINTS	PR00627	GTP-binding nuclear protein Ran/Tc4 family signature	133	151	1.2E-59	T	25-09-2024	IPR002041	Ran GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	PRINTS	PR00627	GTP-binding nuclear protein Ran/Tc4 family signature	30	44	1.2E-59	T	25-09-2024	IPR002041	Ran GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	PRINTS	PR00627	GTP-binding nuclear protein Ran/Tc4 family signature	77	95	1.2E-59	T	25-09-2024	IPR002041	Ran GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	CDD	cd00877	Ran	17	182	7.96248E-134	T	25-09-2024	IPR002041	Ran GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	Pfam	PF00071	Ras family	18	174	1.7E-43	T	25-09-2024	IPR001806	Small GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	NCBIfam	TIGR00231	small GTP-binding protein domain	16	165	8.2E-21	T	25-09-2024	IPR005225	Small GTP-binding protein domain	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	SMART	SM00176	ran_sub_2	22	222	5.8E-163	T	25-09-2024	-	-	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	PANTHER	PTHR24071	RAN GTPASE	10	221	1.2E-120	T	25-09-2024	IPR002041	Ran GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	ProSiteProfiles	PS51418	small GTPase Ran family profile.	10	174	30.707405	T	25-09-2024	IPR002041	Ran GTPase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	FunFam	G3DSA:3.40.50.300:FF:000131	GTP-binding nuclear protein Ran	8	222	7.4E-137	T	25-09-2024	-	-	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	SMART	SM00175	rab_sub_5	17	177	5.3E-27	T	25-09-2024	-	-	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	SMART	SM00173	ras_sub_4	14	177	2.3E-12	T	25-09-2024	-	-	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	Gene3D	G3DSA:3.40.50.300	-	9	222	3.9E-69	T	25-09-2024	IPR027417	P-loop containing nucleoside triphosphate hydrolase	-	-
+contig_562_ORF.10	26459d6c34c2c7a6ff6968ad576a4de2	222	ProSiteProfiles	PS51419	small GTPase Rab1 family profile.	11	222	18.43602	T	25-09-2024	-	-	-	-
+contig_1868_ORF.11	db6d9292dc6625c1790d45e856221ad0	166	ProSiteProfiles	PS50878	Reverse transcriptase (RT) catalytic domain profile.	1	152	10.24905	T	25-09-2024	IPR000477	Reverse transcriptase domain	-	-
+contig_1868_ORF.11	db6d9292dc6625c1790d45e856221ad0	166	CDD	cd01647	RT_LTR	1	152	2.49315E-83	T	25-09-2024	-	-	-	-
+contig_1868_ORF.11	db6d9292dc6625c1790d45e856221ad0	166	Gene3D	G3DSA:3.30.70.270	-	1	158	4.2E-56	T	25-09-2024	IPR043128	Reverse transcriptase/Diguanylate cyclase domain	-	-
+contig_1868_ORF.11	db6d9292dc6625c1790d45e856221ad0	166	PANTHER	PTHR24559	TRANSPOSON TY3-I GAG-POL POLYPROTEIN	1	166	1.4E-76	T	25-09-2024	IPR053134	RNA-directed DNA polymerase homolog	-	-
+contig_1868_ORF.11	db6d9292dc6625c1790d45e856221ad0	166	SUPERFAMILY	SSF56672	DNA/RNA polymerases	1	166	2.0E-74	T	25-09-2024	IPR043502	DNA/RNA polymerase superfamily	-	-
+contig_1868_ORF.11	db6d9292dc6625c1790d45e856221ad0	166	Pfam	PF00078	Reverse transcriptase (RNA-dependent DNA polymerase)	2	151	2.0E-33	T	25-09-2024	IPR000477	Reverse transcriptase domain	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	MobiDBLite	mobidb-lite	consensus disorder prediction	31	75	-	T	25-09-2024	-	-	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	MobiDBLite	mobidb-lite	consensus disorder prediction	46	60	-	T	25-09-2024	-	-	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	FunFam	G3DSA:2.40.50.40:FF:000031	Heterochromatin protein 1	70	135	2.5E-26	T	25-09-2024	-	-	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	ProSiteProfiles	PS50013	Chromo and chromo shadow domain profile.	76	134	14.801901	T	25-09-2024	IPR000953	Chromo/chromo shadow domain	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	SUPERFAMILY	SSF54160	Chromo domain-like	68	131	7.76E-24	T	25-09-2024	IPR016197	Chromo-like domain superfamily	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	Pfam	PF00385	Chromo (CHRromatin Organisation MOdifier) domain	2	30	5.4E-7	T	25-09-2024	IPR023780	Chromo domain	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	PANTHER	PTHR22812	CHROMOBOX PROTEIN	1	133	5.9E-36	T	25-09-2024	IPR051219	Heterochromatin-associated chromo domain-containing protein	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	SMART	SM00300	ChS_2	70	132	9.1E-27	T	25-09-2024	IPR008251	Chromo shadow domain	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	Gene3D	G3DSA:2.40.50.40	-	1	43	7.4E-14	T	25-09-2024	-	-	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	ProSiteProfiles	PS50013	Chromo and chromo shadow domain profile.	1	40	15.073401	T	25-09-2024	IPR000953	Chromo/chromo shadow domain	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	MobiDBLite	mobidb-lite	consensus disorder prediction	61	75	-	T	25-09-2024	-	-	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	Gene3D	G3DSA:2.40.50.40	-	61	133	1.4E-33	T	25-09-2024	-	-	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	CDD	cd00034	CSD	76	127	1.21356E-26	T	25-09-2024	-	-	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	SUPERFAMILY	SSF54160	Chromo domain-like	2	36	5.82E-11	T	25-09-2024	IPR016197	Chromo-like domain superfamily	-	-
+contig_1552_ORF.1	7f409f4e04056f28a3ca2991a2eae66f	140	Pfam	PF01393	Chromo shadow domain	78	129	1.6E-21	T	25-09-2024	IPR008251	Chromo shadow domain	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	PANTHER	PTHR11475	OXIDASE/PEROXIDASE	13	360	5.3E-151	T	25-09-2024	IPR050702	Peroxidase Activity and Reactive Species Generation	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	SUPERFAMILY	SSF48113	Heme-dependent peroxidases	8	360	8.12E-125	T	25-09-2024	IPR010255	Haem peroxidase superfamily	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	Pfam	PF03098	Animal haem peroxidase	10	335	9.4E-123	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	PRINTS	PR00457	Animal haem peroxidase signature	35	55	5.2E-35	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	PRINTS	PR00457	Animal haem peroxidase signature	240	260	5.2E-35	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	PRINTS	PR00457	Animal haem peroxidase signature	60	86	5.2E-35	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	PRINTS	PR00457	Animal haem peroxidase signature	113	123	5.2E-35	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	PRINTS	PR00457	Animal haem peroxidase signature	311	325	5.2E-35	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	PRINTS	PR00457	Animal haem peroxidase signature	17	35	5.2E-35	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	ProSiteProfiles	PS50292	Animal heme peroxidase superfamily profile.	1	363	115.534149	T	25-09-2024	IPR019791	Haem peroxidase, animal-type	-	-
+contig_384_ORF.1	ee64f510a5ee098fe01918d4929a4bfb	364	Gene3D	G3DSA:1.10.640.10	Haem peroxidase domain superfamily, animal type	2	362	1.5E-136	T	25-09-2024	IPR037120	Haem peroxidase domain superfamily, animal type	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	Pfam	PF17917	RNase H-like domain found in reverse transcriptase	168	265	8.7E-31	T	25-09-2024	IPR041373	Reverse transcriptase, RNase H-like domain	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	CDD	cd09274	RNase_HI_RT_Ty3	172	266	3.84399E-45	T	25-09-2024	-	-	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	FunFam	G3DSA:3.10.20.370:FF:000001	Retrovirus-related Pol polyprotein from transposon 17.6-like protein	170	236	1.2E-20	T	25-09-2024	-	-	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	ProSiteProfiles	PS50878	Reverse transcriptase (RT) catalytic domain profile.	1	78	8.998611	T	25-09-2024	IPR000477	Reverse transcriptase domain	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	Gene3D	G3DSA:3.30.70.270	-	90	170	9.3E-31	T	25-09-2024	IPR043128	Reverse transcriptase/Diguanylate cyclase domain	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	Pfam	PF00078	Reverse transcriptase (RNA-dependent DNA polymerase)	2	77	5.5E-12	T	25-09-2024	IPR000477	Reverse transcriptase domain	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	FunFam	G3DSA:3.30.70.270:FF:000020	Transposon Tf2-6 polyprotein-like Protein	88	177	3.1E-29	T	25-09-2024	-	-	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	Gene3D	G3DSA:3.30.70.270	-	1	89	1.5E-31	T	25-09-2024	IPR043128	Reverse transcriptase/Diguanylate cyclase domain	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	FunFam	G3DSA:3.30.70.270:FF:000003	Transposon Ty3-G Gag-Pol polyprotein	2	78	1.4E-19	T	25-09-2024	-	-	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	Gene3D	G3DSA:3.10.20.370	-	171	236	8.0E-8	T	25-09-2024	-	-	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	PANTHER	PTHR33064	POL PROTEIN	1	263	1.2E-67	T	25-09-2024	IPR051320	Viral Replication and Maturation Polyprotein	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	SUPERFAMILY	SSF56672	DNA/RNA polymerases	1	266	6.67E-102	T	25-09-2024	IPR043502	DNA/RNA polymerase superfamily	-	-
+contig_962_ORF.14	b021011f3343f11885fabe7f346ee42a	266	CDD	cd01647	RT_LTR	1	78	2.34599E-35	T	25-09-2024	-	-	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	Coils	Coil	Coil	76	96	-	T	25-09-2024	-	-	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	PRINTS	PR00886	High mobility group (HMG1/HMG2) protein signature	78	98	6.0E-14	T	25-09-2024	-	-	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	PRINTS	PR00886	High mobility group (HMG1/HMG2) protein signature	59	78	6.0E-14	T	25-09-2024	-	-	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	PRINTS	PR00886	High mobility group (HMG1/HMG2) protein signature	41	59	6.0E-14	T	25-09-2024	-	-	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	Pfam	PF00505	HMG (high mobility group) box	26	94	6.5E-18	T	25-09-2024	IPR009071	High mobility group box domain	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	PANTHER	PTHR48112	HIGH MOBILITY GROUP PROTEIN DSP1	13	125	2.7E-28	T	25-09-2024	IPR050342	High Mobility Group Box (HMGB)	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	SUPERFAMILY	SSF47095	HMG-box	18	98	6.02E-27	T	25-09-2024	IPR036910	High mobility group box domain superfamily	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	SMART	SM00398	hmgende2	25	95	6.8E-24	T	25-09-2024	IPR009071	High mobility group box domain	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	FunFam	G3DSA:1.10.30.10:FF:000016	FACT complex subunit SSRP1	10	101	5.4E-36	T	25-09-2024	-	-	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	MobiDBLite	mobidb-lite	consensus disorder prediction	86	126	-	T	25-09-2024	-	-	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	Gene3D	G3DSA:1.10.30.10	High mobility group box domain	10	101	5.3E-27	T	25-09-2024	IPR036910	High mobility group box domain superfamily	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	ProSiteProfiles	PS50118	HMG boxes A and B DNA-binding domains profile.	26	94	19.234417	T	25-09-2024	IPR009071	High mobility group box domain	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	MobiDBLite	mobidb-lite	consensus disorder prediction	1	25	-	T	25-09-2024	-	-	-	-
+contig_1329_ORF.14	627989a222ca9083a8e78b8719b32614	126	MobiDBLite	mobidb-lite	consensus disorder prediction	112	126	-	T	25-09-2024	-	-	-	-
