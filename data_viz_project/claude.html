@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORFs Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .tooltip {
+            position: absolute;
+            background: #f9f9f9;
+            border: 1px solid #d3d3d3;
+            padding: 10px;
+            border-radius: 5px;
+            pointer-events: none;
+            font-size: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        .orf {
+            fill: steelblue;
+            stroke: black;
+            stroke-width: 1;
+            transition: opacity 0.2s;
+        }
+        .orf:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        .arrow {
+            fill: steelblue;
+        }
+        .genome-line {
+            stroke: black;
+            stroke-width: 2;
+        }
+        .contig-label {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .genetic-code-label {
+            font-size: 12px;
+            fill: #666;
+        }
+        .scale-axis {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ORFs Visualization</h1>
+    <div id="visualization-container"></div>
+    <div class="tooltip" style="display: none;"></div>
+
+    <script>
+        async function loadJSONData() {
+            try {
+                const response = await fetch('orfs.json');
+                return await response.json();
+            } catch (error) {
+                console.error('Error loading JSON data:', error);
+                return [];
+            }
+        }
+
+        function createVisualization(data) {
+            const container = d3.select("#visualization-container");
+            container.html(""); // Clear existing content
+
+            data.forEach(contigData => {
+                const contigDiv = container.append("div")
+                    .attr("class", "contig-group")
+                    .style("margin-bottom", "40px");
+
+                // Add title for each contig
+                contigDiv.append("h2")
+                    .attr("class", "contig-label")
+                    .text(`Contig: ${contigData.contig} (Length: ${contigData.length} bp)`);
+
+                const svgWidth = Math.min(window.innerWidth - 40, 1200);
+                const svgHeight = 400;
+                const margin = { top: 40, right: 20, bottom: 40, left: 150 };
+
+                const svg = contigDiv.append("svg")
+                    .attr("width", svgWidth)
+                    .attr("height", svgHeight);
+
+                const xScale = d3.scaleLinear()
+                    .domain([0, contigData.length])
+                    .range([margin.left, svgWidth - margin.right]);
+
+                const yScale = d3.scaleBand()
+                    .domain(contigData.orfs.map(d => d.code))
+                    .range([margin.top, svgHeight - margin.bottom])
+                    .padding(0.3);
+
+                // X-axis
+                const xAxis = d3.axisBottom(xScale).ticks(10);
+                svg.append("g")
+                    .attr("transform", `translate(0,${svgHeight - margin.bottom})`)
+                    .call(xAxis);
+
+                // Y-axis
+                const yAxis = d3.axisLeft(yScale);
+                svg.append("g")
+                    .attr("transform", `translate(${margin.left},0)`)
+                    .call(yAxis);
+
+                // Reference lines for each genetic code
+                svg.selectAll(".genome-line")
+                    .data(contigData.orfs)
+                    .enter()
+                    .append("line")
+                    .attr("class", "genome-line")
+                    .attr("x1", margin.left)
+                    .attr("x2", svgWidth - margin.right)
+                    .attr("y1", d => yScale(d.code) + yScale.bandwidth() / 2)
+                    .attr("y2", d => yScale(d.code) + yScale.bandwidth() / 2);
+
+                const tooltip = d3.select(".tooltip");
+
+                // Add rectangles for each ORF
+                svg.selectAll(".orf")
+                    .data(contigData.orfs)
+                    .enter()
+                    .append("rect")
+                    .attr("class", "orf")
+                    .attr("x", d => xScale(d.start))
+                    .attr("y", d => yScale(d.code) + yScale.bandwidth() / 4)
+                    .attr("width", d => xScale(d.end) - xScale(d.start))
+                    .attr("height", yScale.bandwidth() / 2)
+                    .on("mouseover", (event, d) => {
+                        tooltip.style("display", "block")
+                            .html(`
+                                <strong>${d.name}</strong><br>
+                                Start: ${d.start}, End: ${d.end}<br>
+                                Type: ${d.type}, Length: ${d.length} bp<br>
+                                Strand: ${d.strand}, Frame: ${d.frame}<br>
+                                Genetic Code: ${d.code}<br>
+                                Domains: ${d.domains.map(domain => `
+                                    ${domain.domain_name} (${domain.database}, E-value: ${domain.e_value})
+                                `).join("<br>")}
+                            `);
+                    })
+                    .on("mousemove", (event) => {
+                        const [scrollX, scrollY] = [window.scrollX, window.scrollY];
+                        tooltip.style("left", event.pageX + 10 - scrollX + "px")
+                            .style("top", event.pageY - 10 - scrollY + "px");
+                    })
+                    .on("mouseout", () => {
+                        tooltip.style("display", "none");
+                    });
+            });
+        }
+
+        async function renderVisualizations() {
+            const data = await loadJSONData();
+            if (data.length > 0) {
+                createVisualization(data);
+            } else {
+                d3.select("#visualization-container").html("<p>Error loading data or empty data.</p>");
+            }
+        }
+
+        renderVisualizations();
+    </script>
+</body>
+</html>
