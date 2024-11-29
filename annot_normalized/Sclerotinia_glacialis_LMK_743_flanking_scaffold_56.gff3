@@ -1,0 +1,14 @@
+scaffold_56	funannotate	gene	0	838	.	+	.	ID=FUN_009728;
+scaffold_56	funannotate	mRNA	0	838	.	+	.	ID=FUN_009728-T1;Parent=FUN_009728;product=hypothetical protein;
+scaffold_56	funannotate	exon	0	407	.	+	.	ID=FUN_009728-T1.exon1;Parent=FUN_009728-T1;
+scaffold_56	funannotate	exon	443	838	.	+	.	ID=FUN_009728-T1.exon2;Parent=FUN_009728-T1;
+scaffold_56	funannotate	CDS	0	407	.	+	0	ID=FUN_009728-T1.cds;Parent=FUN_009728-T1;
+scaffold_56	funannotate	CDS	443	838	.	+	0	ID=FUN_009728-T1.cds;Parent=FUN_009728-T1;
+scaffold_56	funannotate	gene	954	1649	.	+	.	ID=FUN_009729;
+scaffold_56	funannotate	mRNA	954	1649	.	+	.	ID=FUN_009729-T1;Parent=FUN_009729;product=hypothetical protein;
+scaffold_56	funannotate	exon	954	1649	.	+	.	ID=FUN_009729-T1.exon1;Parent=FUN_009729-T1;
+scaffold_56	funannotate	CDS	954	1649	.	+	0	ID=FUN_009729-T1.cds;Parent=FUN_009729-T1;
+scaffold_56	funannotate	gene	1769	2593	.	+	.	ID=FUN_009730;
+scaffold_56	funannotate	mRNA	1769	2593	.	+	.	ID=FUN_009730-T1;Parent=FUN_009730;product=hypothetical protein;
+scaffold_56	funannotate	exon	1769	2593	.	+	.	ID=FUN_009730-T1.exon1;Parent=FUN_009730-T1;
+scaffold_56	funannotate	CDS	1769	2593	.	+	0	ID=FUN_009730-T1.cds;Parent=FUN_009730-T1;

@@ -1,0 +1,4 @@
+scaffold_531	funannotate	gene	0	1046	.	-	.	ID=FUN_007429;
+scaffold_531	funannotate	mRNA	0	1046	.	-	.	ID=FUN_007429-T1;Parent=FUN_007429;product=hypothetical protein;
+scaffold_531	funannotate	exon	0	1046	.	-	.	ID=FUN_007429-T1.exon1;Parent=FUN_007429-T1;
+scaffold_531	funannotate	CDS	0	1046	.	-	0	ID=FUN_007429-T1.cds;Parent=FUN_007429-T1;

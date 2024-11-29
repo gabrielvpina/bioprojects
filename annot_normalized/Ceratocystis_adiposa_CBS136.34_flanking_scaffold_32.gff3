@@ -1,0 +1,10 @@
+scaffold_32	funannotate	gene	0	1197	.	+	.	ID=FUN_002001;
+scaffold_32	funannotate	mRNA	0	1197	.	+	.	ID=FUN_002001-T1;Parent=FUN_002001;product=hypothetical protein;
+scaffold_32	funannotate	exon	0	1066	.	+	.	ID=FUN_002001-T1.exon1;Parent=FUN_002001-T1;
+scaffold_32	funannotate	exon	1140	1197	.	+	.	ID=FUN_002001-T1.exon2;Parent=FUN_002001-T1;
+scaffold_32	funannotate	CDS	0	1066	.	+	0	ID=FUN_002001-T1.cds;Parent=FUN_002001-T1;
+scaffold_32	funannotate	CDS	1140	1197	.	+	1	ID=FUN_002001-T1.cds;Parent=FUN_002001-T1;
+scaffold_32	funannotate	gene	1962	3851	.	+	.	ID=FUN_002002;
+scaffold_32	funannotate	mRNA	1962	3851	.	+	.	ID=FUN_002002-T1;Parent=FUN_002002;product=hypothetical protein;
+scaffold_32	funannotate	exon	1962	3851	.	+	.	ID=FUN_002002-T1.exon1;Parent=FUN_002002-T1;
+scaffold_32	funannotate	CDS	1962	3851	.	+	0	ID=FUN_002002-T1.cds;Parent=FUN_002002-T1;

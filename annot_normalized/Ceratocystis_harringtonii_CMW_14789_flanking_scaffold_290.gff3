@@ -1,0 +1,10 @@
+scaffold_290	funannotate	gene	0	2024	.	+	.	ID=FUN_005472;
+scaffold_290	funannotate	mRNA	0	2024	.	+	.	ID=FUN_005472-T1;Parent=FUN_005472;product=hypothetical protein;
+scaffold_290	funannotate	exon	734	1501	.	+	.	ID=FUN_005472-T1.exon4;Parent=FUN_005472-T1;
+scaffold_290	funannotate	exon	1596	2024	.	+	.	ID=FUN_005472-T1.exon5;Parent=FUN_005472-T1;
+scaffold_290	funannotate	CDS	734	1501	.	+	0	ID=FUN_005472-T1.cds;Parent=FUN_005472-T1;
+scaffold_290	funannotate	CDS	1596	2024	.	+	0	ID=FUN_005472-T1.cds;Parent=FUN_005472-T1;
+scaffold_290	funannotate	gene	3278	3988	.	-	.	ID=FUN_005473;
+scaffold_290	funannotate	mRNA	3278	3988	.	-	.	ID=FUN_005473-T1;Parent=FUN_005473;product=hypothetical protein;
+scaffold_290	funannotate	exon	3278	3988	.	-	.	ID=FUN_005473-T1.exon1;Parent=FUN_005473-T1;
+scaffold_290	funannotate	CDS	3278	3988	.	-	0	ID=FUN_005473-T1.cds;Parent=FUN_005473-T1;

@@ -1,0 +1,14 @@
+scaffold_424	funannotate	gene	0	574	.	+	.	ID=FUN_006868;
+scaffold_424	funannotate	mRNA	0	574	.	+	.	ID=FUN_006868-T1;Parent=FUN_006868;product=hypothetical protein;
+scaffold_424	funannotate	exon	0	436	.	+	.	ID=FUN_006868-T1.exon1;Parent=FUN_006868-T1;
+scaffold_424	funannotate	exon	556	574	.	+	.	ID=FUN_006868-T1.exon2;Parent=FUN_006868-T1;
+scaffold_424	funannotate	CDS	0	436	.	+	0	ID=FUN_006868-T1.cds;Parent=FUN_006868-T1;
+scaffold_424	funannotate	CDS	556	574	.	+	1	ID=FUN_006868-T1.cds;Parent=FUN_006868-T1;
+scaffold_424	funannotate	gene	1321	3352	.	-	.	ID=FUN_006869;
+scaffold_424	funannotate	mRNA	1321	3352	.	-	.	ID=FUN_006869-T1;Parent=FUN_006869;product=hypothetical protein;
+scaffold_424	funannotate	exon	2678	3123	.	-	.	ID=FUN_006869-T1.exon2;Parent=FUN_006869-T1;
+scaffold_424	funannotate	exon	1840	2607	.	-	.	ID=FUN_006869-T1.exon3;Parent=FUN_006869-T1;
+scaffold_424	funannotate	exon	1321	1749	.	-	.	ID=FUN_006869-T1.exon4;Parent=FUN_006869-T1;
+scaffold_424	funannotate	CDS	2678	3123	.	-	2	ID=FUN_006869-T1.cds;Parent=FUN_006869-T1;
+scaffold_424	funannotate	CDS	1840	2607	.	-	0	ID=FUN_006869-T1.cds;Parent=FUN_006869-T1;
+scaffold_424	funannotate	CDS	1321	1749	.	-	0	ID=FUN_006869-T1.cds;Parent=FUN_006869-T1;

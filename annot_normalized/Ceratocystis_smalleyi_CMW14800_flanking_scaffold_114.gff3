@@ -1,0 +1,6 @@
+scaffold_114	funannotate	gene	0	1472	.	-	.	ID=FUN_002441;
+scaffold_114	funannotate	mRNA	0	1472	.	-	.	ID=FUN_002441-T1;Parent=FUN_002441;product=hypothetical protein;
+scaffold_114	funannotate	exon	548	1472	.	-	.	ID=FUN_002441-T1.exon1;Parent=FUN_002441-T1;
+scaffold_114	funannotate	exon	0	433	.	-	.	ID=FUN_002441-T1.exon2;Parent=FUN_002441-T1;
+scaffold_114	funannotate	CDS	548	1472	.	-	0	ID=FUN_002441-T1.cds;Parent=FUN_002441-T1;
+scaffold_114	funannotate	CDS	0	433	.	-	2	ID=FUN_002441-T1.cds;Parent=FUN_002441-T1;
